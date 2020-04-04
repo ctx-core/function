@@ -469,13 +469,22 @@ export function and(__a1__value) {
 	return a1__value[a1__value.length - 1]
 }
 /**
- * Returns function that returns the first falsy or last item in `__a1__value`.
+ * Returns function that returns the first falsy in `__a1__value` or `value`.
  * @param {nowrap__a1} __a1__value
  * @returns {function(*=): *}
  */
-export function _and(__a1__value) {
+export function _and__left(__a1__value) {
 	return value=>and(concat__wrap(__a1__value, value))
 }
+/**
+ * Returns function that returns the first falsy from `value` or `__a1__value` or the last value of `__a1__value`.
+ * @param {nowrap__a1} __a1__value
+ * @returns {function(*=): *}
+ */
+export function _and__right(__a1__value) {
+	return value=>and(concat__wrap([value], __a1__value))
+}
+export const _and = _and__right
 /**
  * Returns the first falsy or last item function call or value in `__a1__value` .
  * @param {nowrap__a1<*|function>} __a1__value
@@ -527,13 +536,22 @@ export function or(__a1__value) {
 	}
 }
 /**
+ * Returns function that returns first truthy item in `__a1__value` or value.
+ * @param {nowrap__a1} __a1__value
+ * @returns {function(*=): *}
+ */
+export function _or__left(__a1__value) {
+	return value=>or(concat__wrap(__a1__value, value))
+}
+/**
  * Returns function that returns first truthy or last item in `__a1__value`.
  * @param {nowrap__a1} __a1__value
  * @returns {function(*=): *}
  */
-export function _or(__a1__value) {
-	return value=>or(concat__wrap(__a1__value, value))
+export function _or__right(__a1__value) {
+	return value=>or(concat__wrap([value], __a1__value))
 }
+export const _or = _or__right
 /**
  * Returns first truthy or last item call or value in `__a1__value`.
  * @param {nowrap__a1} __a1__value
