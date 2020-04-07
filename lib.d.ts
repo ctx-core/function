@@ -1,4 +1,5 @@
-export declare type falsy = false | 0 | '' | null | undefined;
+export declare type nullsy = null | undefined;
+export declare type falsy = false | 0 | '' | nullsy;
 export declare function _val(val: any): () => any;
 /**
  * Array#`concat`

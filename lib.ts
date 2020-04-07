@@ -1,4 +1,5 @@
-export type falsy = false|0|''|null|undefined
+export type nullsy = null|undefined
+export type falsy = false|0|''|nullsy
 /**
  * @typedef {boolean} false
  */
