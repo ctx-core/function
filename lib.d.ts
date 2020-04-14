@@ -169,7 +169,7 @@ export declare function andand(obj: any, ...a1__name: any[]): any;
  * @param {...string} a1__name
  * @returns {function(*=): *}
  */
-export declare function _andand(...a1__name: any[]): (obj: any) => any;
+export declare function _andand(...a1__name: any[]): (obj: any, ...arg_a1: any[]) => any;
 export declare const _fn__andand: typeof _andand;
 /**
  * Applies `&&` to a chain of property name or function with return value from `obj`.
@@ -201,12 +201,12 @@ export declare const _fn__andand__fn: typeof _andand_;
  */
 export declare function andand__or(obj: any, a1__name: any, fn__or: any): any;
 /**
- * Returns function that calls `andand__or(obj, a1__name, fn__or)`
- * @param {...arg__andand} a1__name
- * @param {fn__or} fn__or
+ * Returns function that calls `andand__or(obj, name_a1, or_fn)`
+ * @param {...arg__andand} name_a1
+ * @param {or_fn} or_fn
  * @returns {function(*=): *}
  */
-export declare function _andand__or(a1__name: any, fn__or: any): (obj: any) => any;
+export declare function _andand__or(name_a1: any, or_fn: any): (obj: any, ...arg_a1: any[]) => any;
 export declare const _fn__andand__or: typeof _andand__or;
 /**
  * Returns not applied to the spread of `__a1__value`

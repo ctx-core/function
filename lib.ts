@@ -257,7 +257,7 @@ export function andand(obj, ...a1__name) {
  * @returns {function(*=): *}
  */
 export function _andand(...a1__name) {
-	return obj=>andand(obj, ...a1__name)
+	return (obj, ...arg_a1)=>andand(obj, ...arg_a1, ...a1__name)
 }
 export const _fn__andand = _andand
 /**
@@ -308,13 +308,13 @@ export function andand__or(obj, a1__name, fn__or) {
 	return val || fn__or(val, obj)
 }
 /**
- * Returns function that calls `andand__or(obj, a1__name, fn__or)`
- * @param {...arg__andand} a1__name
- * @param {fn__or} fn__or
+ * Returns function that calls `andand__or(obj, name_a1, or_fn)`
+ * @param {...arg__andand} name_a1
+ * @param {or_fn} or_fn
  * @returns {function(*=): *}
  */
-export function _andand__or(a1__name, fn__or) {
-	return obj=>andand__or(obj, a1__name, fn__or)
+export function _andand__or(name_a1, or_fn) {
+	return (obj, ...arg_a1)=>andand__or(obj, arg_a1.concat(name_a1), or_fn)
 }
 export const _fn__andand__or = _andand__or
 /**
