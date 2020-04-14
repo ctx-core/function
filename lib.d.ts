@@ -169,8 +169,9 @@ export declare function andand(obj: any, ...a1__name: any[]): any;
  * @param {...string} a1__name
  * @returns {function(*=): *}
  */
-export declare function _andand(...a1__name: any[]): (obj: any, ...arg_a1: any[]) => any;
-export declare const _fn__andand: typeof _andand;
+export declare function _andand__one(...a1__name: any[]): (obj: any) => any;
+export declare function _andand__many(...a1__name: any[]): (obj: any, ...arg_a1: any[]) => any;
+export declare const _andand: typeof _andand__one;
 /**
  * Applies `&&` to a chain of property name or function with return value from `obj`.
  * @param obj
@@ -193,82 +194,83 @@ export declare const _fn__andand__fn: typeof _andand_;
  * @returns {*}
  */
 /**
- * Returns `andand(obj, a1__name) || fn__or(obj, val)`
+ * Returns `andand(obj, name_a1) || or_fn(obj, val)`
  * @param obj
- * @param {...arg__andand} a1__name
- * @param {fn__or} fn__or
+ * @param {string[]} name_a1
+ * @param {function(*, *): *} or_fn
  * @returns {*}
  */
-export declare function andand__or(obj: any, a1__name: any, fn__or: any): any;
+export declare function andand__or(obj: any, name_a1: string[], or_fn: (val: any, obj: any) => any): any;
 /**
  * Returns function that calls `andand__or(obj, name_a1, or_fn)`
- * @param {...arg__andand} name_a1
- * @param {or_fn} or_fn
+ * @param {string[]} name_a1
+ * @param {function(*, *): *} or_fn
  * @returns {function(*=): *}
  */
-export declare function _andand__or(name_a1: any, or_fn: any): (obj: any, ...arg_a1: any[]) => any;
-export declare const _fn__andand__or: typeof _andand__or;
+export declare function _andand__or__one(name_a1: any, or_fn: any): (obj: any) => any;
+export declare function _andand__or__many(name_a1: any, or_fn: any): (obj: any, ...arg_a1: any[]) => any;
+export declare const _andand__or: typeof _andand__or__one;
 /**
- * Returns not applied to the spread of `__a1__value`
- * @param {nowrap__a1} __a1__value
+ * Returns not applied to the spread of `value_a1__`
+ * @param {*|*[]} value_a1__
  * @returns {boolean}
  */
-export declare function not(__a1__value: any): boolean;
+export declare function not(value_a1__: any): boolean;
 /**
  * Returns function that calls [not](#not) with [concat__wrap](#concat__wrap)  of the arguments.
- * @param {nowrap__a1} __a1__value__
+ * @param {*|*[]} value_a1__
  * @returns {function(*=): boolean}
  */
-export declare function _not(__a1__value__: any): (__a1__value: any) => boolean;
+export declare function _not(value_a1__: any): (value_a1: any) => boolean;
 /**
- * Returns the boolean of the truthiness all values in `__a1__value`
- * @param {nowrap__a1} __a1__value
+ * Returns the boolean of the truthiness all values in `value_a1__`
+ * @param {*|*[]} value_a1__
  * @returns {boolean}
  */
-export declare function notnot(__a1__value: any): boolean;
+export declare function notnot(value_a1__: any): boolean;
 /**
  * Returns function that calls [notnot](#notnot) with [concat__wrap](#concat__wrap) of the arguments.
- * @param {nowrap__a1} __a1__value
+ * @param {*|*[]} value_a1__
  * @returns {function(*=): boolean}
  */
-export declare function _notnot(__a1__value: any): (value: any) => boolean;
+export declare function _notnot(value_a1__: any): (value: any) => boolean;
 /**
- * Returns `==` operator to all values in `__a1__value`.
- * @param {nowrap__a1} __a1__value
+ * Returns `==` operator to all values in `value_a1__`.
+ * @param {*|*[]} value_a1__
  * @returns {boolean}
  */
-export declare function eq(__a1__value: any): boolean;
+export declare function eq(value_a1__: any): boolean;
 /**
- * Returns function that returns `==` operator to all values in `__a1__value`.
- * @param {nowrap__a1} __a1__value
+ * Returns function that returns `==` operator to all values in `value_a1__S`.
+ * @param {*|*[]} value_a1__
  * @returns {function(*=): boolean}
  */
-export declare function _eq(__a1__value: any | any[]): (value: any | any[]) => boolean;
+export declare function _eq(value_a1__: any | any[]): (value: any | any[]) => boolean;
 export declare const _fn__eq: typeof _eq;
 /**
- * Returns `!=` operator to all values in `__a1__value`.
- * @param {nowrap__a1} __a1__value
+ * Returns `!=` operator to all values in `value_a1__`.
+ * @param {*|*[]} value_a1__
  * @returns {boolean}
  */
-export declare function neq(__a1__value: any): boolean;
+export declare function neq(value_a1__: any): boolean;
 /**
- * Return function that Returns `!=` operator to all values in `__a1__value`.
- * @param {nowrap__a1} __a1__value__
+ * Return function that Returns `!=` operator to all values in `value_a1__`.
+ * @param {*|*[]} value_a1__
  * @returns {function(*=): boolean}
  */
-export declare function _neq(__a1__value__: any): (__a1__value: any) => boolean;
+export declare function _neq(value_a1__: any): (value_a1: any) => boolean;
 /**
- * Returns `===` operator to all values in `__a1__value`.
- * @param {nowrap__a1} __a1__value
+ * Returns `===` operator to all values in `value_a1__`.
+ * @param {*|*[]} value_a1__
  * @returns {boolean}
  */
-export declare function eql(__a1__value: any): boolean;
+export declare function eql(value_a1__: any): boolean;
 /**
- * Returns function that returns `===` operator to all values in `__a1__value`.
- * @param __a1__value
+ * Returns function that returns `===` operator to all values in `value_a1__`.
+ * @param value_a1__
  * @returns {function(*=): boolean}
  */
-export declare function _eql(__a1__value: any): (value: any) => boolean;
+export declare function _eql(value_a1__: any): (value: any) => boolean;
 /**
  * Returns function that applies `===` operator to `compare` & `value`.
  * @param {*} compare
@@ -276,48 +278,48 @@ export declare function _eql(__a1__value: any): (value: any) => boolean;
  */
 export declare function _fn__eql(compare: any): (value: any) => boolean;
 /**
- * Returns `!==` operator to all values in `__a1__value`.
- * @param {nowrap__a1} __a1__value
+ * Returns `!==` operator to all values in `value_a1__`.
+ * @param {*|*[]} value_a1__
  * @returns {boolean}
  */
-export declare function neql(__a1__value: any): boolean;
+export declare function neql(value_a1__: any): boolean;
 /**
- * Returns function that returns `!==` operator to all values in `__a1__value`.
- * @param __a1__value
+ * Returns function that returns `!==` operator to all values in `value_a1__`.
+ * @param value_a1__
  * @returns {function(*=): boolean}
  */
-export declare function _neql(__a1__value: any): (value: any) => boolean;
+export declare function _neql(value_a1__: any): (value: any) => boolean;
 /**
- * Returns the first falsy or last item in `__a1__value`.
- * @param {nowrap__a1} __a1__value
+ * Returns the first falsy or last item in `value_a1__`.
+ * @param {*|*[]} value_a1__
  * @returns {*}
  */
-export declare function and(__a1__value: any): any;
+export declare function and(value_a1__: any): any;
 /**
- * Returns function that returns the first falsy in `__a1__value` or `value`.
- * @param {nowrap__a1} __a1__value
+ * Returns function that returns the first falsy in `value_a1__` or `value`.
+ * @param {*|*[]} value_a1__
  * @returns {function(*=): *}
  */
-export declare function _and__left(__a1__value: any): (value: any) => any;
+export declare function _and__left(value_a1__: any): (value: any) => any;
 /**
- * Returns function that returns the first falsy from `value` or `__a1__value` or the last value of `__a1__value`.
- * @param {nowrap__a1} __a1__value
+ * Returns function that returns the first falsy from `value` or `value_a1__` or the last value of `value_a1__`.
+ * @param {*|*[]} value_a1__
  * @returns {function(*=): *}
  */
-export declare function _and__right(__a1__value: any): (value: any) => any;
+export declare function _and__right(value_a1__: any): (value: any) => any;
 export declare const _and: typeof _and__right;
 /**
- * Returns the first falsy or last item function call or value in `__a1__value` .
- * @param {nowrap__a1<*|function>} __a1__value
+ * Returns the first falsy or last item function call or value in `value_a1__` .
+ * @param {*|*[]} value_a1__
  * @returns {*}
  */
-export declare function and__fn(__a1__value: any): any;
+export declare function and__fn(value_a1__: any): any;
 /**
- * Returns function that returns the first falsy or last item function call or value in `__a1__value` .
- * @param {nowrap__a1<*|function>} __a1__value__
+ * Returns function that returns the first falsy or last item function call or value in `value_a1__` .
+ * @param {*|*[]} value_a1__
  * @returns {function(*=): *}
  */
-export declare function _and__fn(__a1__value__: any): (__a1__value: any) => any;
+export declare function _and__fn(value_a1____: any): (value_a1__: any) => any;
 /**
  * Returns a function than returns the called a1__fn(value) chained with ands
  * @param a1__fn
@@ -326,36 +328,36 @@ export declare function _and__fn__call(a1__fn: {
     (any: any): any;
 }[]): (value: any) => boolean;
 /**
- * Returns first truthy or last item in `__a1__value`.
- * @param {nowrap__a1} __a1__value
+ * Returns first truthy or last item in `value_a1__`.
+ * @param {*|*[]} value_a1__
  * @returns {*}
  */
-export declare function or(__a1__value: any): any;
+export declare function or(value_a1__: any): any;
 /**
- * Returns function that returns first truthy item in `__a1__value` or value.
- * @param {nowrap__a1} __a1__value
+ * Returns function that returns first truthy item in `value_a1__` or value.
+ * @param {*|*[]} value_a1__
  * @returns {function(*=): *}
  */
-export declare function _or__left(__a1__value: any): (value: any) => any;
+export declare function _or__left(value_a1__: any): (value: any) => any;
 /**
- * Returns function that returns first truthy or last item in `__a1__value`.
- * @param {nowrap__a1} __a1__value
+ * Returns function that returns first truthy or last item in `value_a1__`.
+ * @param {*|*[]} value_a1__
  * @returns {function(*=): *}
  */
-export declare function _or__right(__a1__value: any): (value: any) => any;
+export declare function _or__right(value_a1__: any): (value: any) => any;
 export declare const _or: typeof _or__right;
 /**
- * Returns first truthy or last item call or value in `__a1__value`.
- * @param {nowrap__a1} __a1__value
+ * Returns first truthy or last item call or value in `value_a1__`.
+ * @param {*|*[]} value_a1__
  * @returns {*}
  */
-export declare function or__fn(__a1__value: any): any;
+export declare function or__fn(value_a1__: any): any;
 /**
- * Returns function that returns first truthy or last item call or value in `a1__value`.
- * @param {nowrap__a1} a1__value
+ * Returns function that returns first truthy or last item call or value in `value_a1__`.
+ * @param {*|*[]} value_a1__
  * @returns {*}
  */
-export declare function _or__fn(a1__value: any): (value: any) => any;
+export declare function _or__fn(value_a1__: any): (value: any) => any;
 export declare const _fn__or__fn: typeof _or__fn;
 /**
  * Returns a function than returns first truthy value from a1__fn
