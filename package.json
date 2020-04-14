@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/function",
-	"version": "12.0.0",
+	"version": "13.0.0",
 	"description": "ctx-core function",
 	"main": "lib.js",
 	"module": "lib.js",
@@ -34,6 +34,6 @@
 	},
 	"gitHead": "ecded533c5d9946e2d9dafa39dbc95ce3e38ad93",
 	"dependencies": {
-		"@ctx-core/object": "^8.0.7"
+		"@ctx-core/object": "^8.0.8"
 	}
 }
