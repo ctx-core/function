@@ -33,8 +33,5 @@
 	"devDependencies": {
 		"typescript": "^3.9.3"
 	},
-	"gitHead": "9f6cdbb3801f15eb0162e5064b13d0514e49e4cf",
-	"dependencies": {
-		"@ctx-core/object": "^8.0.12"
-	}
+	"gitHead": "9f6cdbb3801f15eb0162e5064b13d0514e49e4cf"
 }
