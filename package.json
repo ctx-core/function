@@ -2,7 +2,6 @@
 	"name": "@ctx-core/function",
 	"version": "13.0.5",
 	"description": "ctx-core function",
-	"type": "module",
 	"main": "lib.js",
 	"module": "lib.js",
 	"types": "lib.ts",
