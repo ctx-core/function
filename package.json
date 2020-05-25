@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/function",
-	"version": "13.0.5",
+	"version": "13.0.6",
 	"description": "ctx-core function",
 	"main": "lib.js",
 	"module": "lib.js",
