@@ -56,7 +56,25 @@ export function call(fn, ...a1__arg) {
  * @returns {function(...[*]=): *}
  */
 export function _call(fn, ...a1__arg) {
-	return (...args__)=>fn(...concat(a1__arg, args__))
+	return (...args__)=>call(fn, ...concat(a1__arg, args__))
+}
+/**
+ * Returns the map of calls to fn_a1 with ...a1__arg.
+ * @param {function} fn
+ * @param {...[]} a1__arg
+ * @returns {*}
+ */
+export function call__map(fn_a1, ...a1__arg) {
+	return fn_a1.map(fn => fn(...a1__arg))
+}
+/**
+ * Returns function that maps calls to fn_al ...a1__arg concat with ...a1__args__ passed to function
+ * @param {function} fn
+ * @param {...[]} a1__arg
+ * @returns {function(...[*]=): *}
+ */
+export function _call__map(fn_a1, ...a1__arg) {
+	return (...args__)=>call__map(fn_a1, ...concat(a1__arg, args__))
 }
 /**
  * Returns function bound to self that calls ...a1__arg concat with ...a1__args__ passed to function
@@ -69,6 +87,16 @@ export function _call__bind(fn, self, ...a1__arg) {
 	return (...args__)=>fn.call(self, ...concat(a1__arg, args__))
 }
 /**
+ * Returns function bound to self that returns map of fn_al calls with ...a1__arg concat with ...a1__args__ passed to function
+ * @param {function} fn_a1
+ * @param self
+ * @param {...[]} a1__arg
+ * @returns {function(...[*]=): *}
+ */
+export function _call__map__bind(fn_a1, self, ...a1__arg) {
+	return (...args__)=>fn_a1.map(fn => fn.call(self, ...concat(a1__arg, args__)))
+}
+/**
  * Returns function that applies a1__arg with ...args__
  * @param {function} fn
  * @param {...[]} a1__arg
@@ -76,6 +104,15 @@ export function _call__bind(fn, self, ...a1__arg) {
  */
 export function _apply(fn, a1__arg = []) {
 	return (...args__)=>fn(...concat(a1__arg, args__))
+}
+/**
+ * Returns function that returns map of calls to fn_a1 applying arg_a1 with ...args__
+ * @param {function} fn
+ * @param {...[]} arg_a1
+ * @returns {function(...[*]=): *}
+ */
+export function _apply__map(fn_a1, arg_a1 = []) {
+	return (...args__)=>fn_a1.map(fn => fn(...concat(arg_a1, args__)))
 }
 /**
  * Returns function bound to self that applies a1__arg with ...args__
@@ -86,6 +123,16 @@ export function _apply(fn, a1__arg = []) {
  */
 export function _apply__bind(fn, self, args = []) {
 	return (...args__)=>fn.apply(self, concat(args, args__))
+}
+/**
+ * Returns function returning map of calls to fn_a1 bound to self that applies a1__arg with ...args__
+ * @param fn
+ * @param self
+ * @param args
+ * @returns {function(...[*]=): *}
+ */
+export function _apply__map__bind(fn_a1, self, args = []) {
+	return (...args__)=>_apply__bind(fn_a1, self, concat(args, args__))
 }
 /**
  * Returns a Immediately-invoked function expression

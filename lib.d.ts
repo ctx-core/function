@@ -36,6 +36,20 @@ export declare function call(fn: any, ...a1__arg: any[]): any;
  */
 export declare function _call(fn: any, ...a1__arg: any[]): (...args__: any[]) => any;
 /**
+ * Returns the map of calls to fn_a1 with ...a1__arg.
+ * @param {function} fn
+ * @param {...[]} a1__arg
+ * @returns {*}
+ */
+export declare function call__map(fn_a1: any, ...a1__arg: any[]): any;
+/**
+ * Returns function that maps calls to fn_al ...a1__arg concat with ...a1__args__ passed to function
+ * @param {function} fn
+ * @param {...[]} a1__arg
+ * @returns {function(...[*]=): *}
+ */
+export declare function _call__map(fn_a1: any, ...a1__arg: any[]): (...args__: any[]) => any;
+/**
  * Returns function bound to self that calls ...a1__arg concat with ...a1__args__ passed to function
  * @param {function} fn
  * @param self
@@ -44,12 +58,27 @@ export declare function _call(fn: any, ...a1__arg: any[]): (...args__: any[]) =>
  */
 export declare function _call__bind(fn: any, self: any, ...a1__arg: any[]): (...args__: any[]) => any;
 /**
+ * Returns function bound to self that returns map of fn_al calls with ...a1__arg concat with ...a1__args__ passed to function
+ * @param {function} fn_a1
+ * @param self
+ * @param {...[]} a1__arg
+ * @returns {function(...[*]=): *}
+ */
+export declare function _call__map__bind(fn_a1: any, self: any, ...a1__arg: any[]): (...args__: any[]) => any;
+/**
  * Returns function that applies a1__arg with ...args__
  * @param {function} fn
  * @param {...[]} a1__arg
  * @returns {function(...[*]=): *}
  */
 export declare function _apply(fn: any, a1__arg?: any[]): (...args__: any[]) => any;
+/**
+ * Returns function that returns map of calls to fn_a1 applying arg_a1 with ...args__
+ * @param {function} fn
+ * @param {...[]} arg_a1
+ * @returns {function(...[*]=): *}
+ */
+export declare function _apply__map(fn_a1: any, arg_a1?: any[]): (...args__: any[]) => any;
 /**
  * Returns function bound to self that applies a1__arg with ...args__
  * @param fn
@@ -58,6 +87,14 @@ export declare function _apply(fn: any, a1__arg?: any[]): (...args__: any[]) => 
  * @returns {function(...[*]=): *}
  */
 export declare function _apply__bind(fn: any, self: any, args?: any[]): (...args__: any[]) => any;
+/**
+ * Returns function returning map of calls to fn_a1 bound to self that applies a1__arg with ...args__
+ * @param fn
+ * @param self
+ * @param args
+ * @returns {function(...[*]=): *}
+ */
+export declare function _apply__map__bind(fn_a1: any, self: any, args?: any[]): (...args__: any[]) => (...args__: any[]) => any;
 /**
  * Returns a Immediately-invoked function expression
  * @param {function} fn
