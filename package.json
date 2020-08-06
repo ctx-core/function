@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/function",
-	"version": "13.2.2",
+	"version": "13.2.3",
 	"description": "ctx-core function",
 	"main": "./index.js",
 	"module": "./index.js",
