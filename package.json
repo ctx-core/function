@@ -30,7 +30,7 @@
 		"access": "public"
 	},
 	"devDependencies": {
-		"typescript": "^3.9.7"
+		"typescript": "^4.0.2"
 	},
 	"gitHead": "9f6cdbb3801f15eb0162e5064b13d0514e49e4cf"
 }
