@@ -1,0 +1,5 @@
+/**
+ * Returns function that returns the first falsy or last item function call or value in `in_value_a1` .
+ */
+export declare function _and_fn(in_value_a1: any): (value_a1_: any) => any;
+export declare const _and__fn: typeof _and_fn;
