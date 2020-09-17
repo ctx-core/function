@@ -1,5 +1,7 @@
+import type { andand_name_type } from './andand';
 /**
  * Returns `andand(obj, name_a1) || or_fn(obj, val)`
  */
-export declare function andand_or(obj: any, name_a1: string[], or_fn: (val: any, obj: any) => any): any;
+export declare function andand_or<O = unknown, R = unknown>(obj: O, name_a1: andand_name_type<O, R>[], or_fn: andand_or_fn_type<O, R>): O | R;
 export declare const andand__or: typeof andand_or;
+export declare type andand_or_fn_type<O = unknown, R = unknown> = (val: O | R, obj: O) => R;

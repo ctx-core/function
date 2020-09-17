@@ -1,1 +1,1 @@
-export declare function _noinit(fn: (...args: any[]) => any, times?: number): (...args: any[]) => any;
+export declare function _noinit(fn: (...args: unknown[]) => any, times?: number): (...args: unknown[]) => any;

@@ -1,1 +1,1 @@
-export declare function and(in_value_a1: any): any;
+export declare function and<T = unknown>(in_value_a1: T[]): T;

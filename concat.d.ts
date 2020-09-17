@@ -1,4 +1,4 @@
 /**
  * Array#`concat`
  */
-export declare function concat(a1?: any, ...rest_a1: any[]): any;
+export declare function concat(a1?: unknown[], ...rest_a1: unknown[]): unknown[];

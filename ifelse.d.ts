@@ -1,4 +1,4 @@
 /**
  * Returns `if_fn(conditional)` if `conditional` else `else_fn(conditional)`
  */
-export declare function ifelse(conditional: any, if_fn: any, else_fn: any): any;
+export declare function ifelse<T = unknown, I = T, E = I>(conditional: T, if_fn: (conditional: T) => I, else_fn: (conditional: T) => E): I | E;

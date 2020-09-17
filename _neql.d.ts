@@ -3,4 +3,4 @@
  * @param in_value_a1
  * @returns {function(*=): boolean}
  */
-export declare function _neql(in_value_a1: any): (value: any) => boolean;
+export declare function _neql(in_value_a1: unknown): (value: unknown) => boolean;

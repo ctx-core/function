@@ -1,6 +1,6 @@
-export function _noinit(fn: (...args)=>any, times = 1) {
+export function _noinit(fn: (...args: unknown[])=>any, times = 1) {
 	let times_called = 0
-	return (...args) => {
+	return (...args: unknown[]) => {
 		if (times_called < times) {
 			times_called += 1
 			return

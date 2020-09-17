@@ -1,1 +1,1 @@
-export declare function _val(val: any): () => any;
+export declare function _val<T = unknown>(val: T): () => T;

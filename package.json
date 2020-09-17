@@ -1,36 +1,36 @@
 {
-	"name": "@ctx-core/function",
-	"version": "14.0.4",
-	"description": "ctx-core function",
-	"keywords": [
-		"ctx-core",
-		"function"
-	],
-	"homepage": "https://github.com/ctx-core/function#readme",
-	"bugs": {
-		"url": "https://github.com/ctx-core/function/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/function/issues"
-	},
-	"license": "Apache-2.0",
-	"author": "Brian Takita",
-	"main": "./index.js",
-	"module": "./index.js",
-	"types": "./index.ts",
-	"scripts": {
-		"build": "npm run clean && npm run compile",
-		"clean": "rm -f tsconfig.tsbuildinfo",
-		"compile": "tsc -b",
-		"exec": "$@",
-		"prepublishOnly": "npm run compile"
-	},
-	"devDependencies": {
-		"typescript": "^4.0.2"
-	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"gitHead": "638152a59564232eb9fc2d502837a4a6a8d52b41"
+  "name": "@ctx-core/function",
+  "version": "15.0.0",
+  "description": "ctx-core function",
+  "keywords": [
+    "ctx-core",
+    "function"
+  ],
+  "homepage": "https://github.com/ctx-core/function#readme",
+  "bugs": {
+    "url": "https://github.com/ctx-core/function/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctx-core/function/issues"
+  },
+  "license": "Apache-2.0",
+  "author": "Brian Takita",
+  "main": "./index.js",
+  "module": "./index.js",
+  "types": "./index.ts",
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -f tsconfig.tsbuildinfo",
+    "compile": "tsc -b",
+    "exec": "$@",
+    "prepublishOnly": "npm run compile"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "638152a59564232eb9fc2d502837a4a6a8d52b41"
 }

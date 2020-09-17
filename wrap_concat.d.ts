@@ -1,5 +1,5 @@
 /**
  * [wrap](#wrap) `a1` & [concat](#concat) `rest_a1`
  */
-export declare function wrap_concat(a1: any, ...rest_a1: any[]): any;
+export declare function wrap_concat<I = unknown>(a1: I | I[], ...rest_a1: I[] | I[][]): I[];
 export declare const concat__wrap: typeof wrap_concat;
