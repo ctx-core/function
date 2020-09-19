@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 16.0.0
+
+### Major Changes
+
+- Typescript strict checking
+
 ## 15.0.1
 
 ### Patch Changes
