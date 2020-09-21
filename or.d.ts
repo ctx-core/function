@@ -1,4 +1,4 @@
 /**
- * Returns first truthy or last item in `in_value_a1`.
+ * Returns first truthy or last item in `a1_unwrap`.
  */
-export declare function or<T = unknown>(in_value_a1: T[]): T | undefined;
+export declare function or<I extends unknown>(a1_unwrap: I): unknown;

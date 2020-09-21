@@ -1,5 +1,20 @@
 # @ctx-core/function
 
+## 16.1.0
+
+### Minor Changes
+
+- \_wrap_a2
+  wrap_a1_item_type
+  wrap_a2_item_type
+  wrap_a2_type
+  wrap_a_type
+  wrap_concat
+
+### Patch Changes
+
+- stricter type checking of generics
+
 ## 16.0.0
 
 ### Major Changes
@@ -20,7 +35,7 @@
 
 ### Minor Changes
 
-- Added maybe, a1_nowrap_type, a2_nowrap_type
+- Added maybe, wrap_a1_type, wrap_a2_type
 
 ### Patch Changes
 

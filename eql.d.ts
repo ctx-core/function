@@ -1,4 +1,4 @@
 /**
- * Returns `===` operator to all values in `in_value_a1`.
+ * Returns `===` operator to all values in `a1_unwrap`.
  */
-export declare function eql(in_value_a1: unknown): boolean;
+export declare function eql<I extends unknown>(a1_unwrap: I): boolean;

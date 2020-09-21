@@ -1,4 +1,5 @@
 /**
  * Array#`concat`
  */
-export declare function concat(a1?: unknown[], ...rest_a1: unknown[]): unknown[];
+export declare function concat<I extends unknown>(a1?: I[], ...rest_a1: I[] | I[][]): I[];
+export declare function maybe_concat<I extends unknown>(a1?: I[], ...rest_a1: I[] | I[][]): I[];

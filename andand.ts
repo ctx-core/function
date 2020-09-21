@@ -1,7 +1,7 @@
 /**
  * Applies `&&` to a chain of properties from `obj`.
  */
-export function andand<I, O = unknown>(
+export function andand<I extends unknown, O extends unknown>(
 	obj:I,
 	...name_a1:andand_name_type<I, O>[]
 ) {
