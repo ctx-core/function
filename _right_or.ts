@@ -5,7 +5,7 @@ import type { a_nowrap_type } from './a_nowrap_type'
 /**
  * Returns function that returns first truthy or last item in `a1_unwrap`.
  */
-export function _right_or<I extends unknown>(a1_unwrap:a_nowrap_type<I>) {
+export function _right_or<I extends unknown = unknown>(a1_unwrap:a_nowrap_type<I>) {
 	return (
 		(fn_a1_unwrap:I)=>
 			or<I>(

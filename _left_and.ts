@@ -5,7 +5,7 @@ import type { wrap_a1_type } from './wrap_a1_type'
 /**
  * Returns function that returns the first falsy in `a1_unwrap` or `value`.
  */
-export function _left_and<I extends unknown>(a1_unwrap: a_nowrap_type<I>) {
+export function _left_and<I extends unknown = unknown>(a1_unwrap: a_nowrap_type<I>) {
 	return (value: I)=>and<wrap_a1_type<I>>(wrap_concat<I>(a1_unwrap, value))
 }
 export const _and__left = _left_and

@@ -3,7 +3,7 @@ import type { a_nowrap_type } from './a_nowrap_type'
 /**
  * Returns not applied to the spread of `in_value_a1`
  */
-export function not<I extends unknown>(in_value_a1: a_nowrap_type<I>): boolean {
+export function not<I extends unknown = unknown>(in_value_a1: a_nowrap_type<I>): boolean {
 	const value_a1 = _wrap_a1<I>(in_value_a1)
 	for (let i = 0; i < value_a1.length; i++) {
 		const value = value_a1[i]

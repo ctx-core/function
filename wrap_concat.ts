@@ -7,7 +7,7 @@ import type { wrap_a_type } from './wrap_a_type'
 /**
  * [wrap](#wrap) `a1_unwrap` & [concat](#concat) `rest_a1`
  */
-export function wrap_concat<I extends unknown>(
+export function wrap_concat<I extends unknown = unknown>(
 	a1_unwrap:a_nowrap_type<I>,
 	...rest_a1:wrap_a_type<I>
 ) {

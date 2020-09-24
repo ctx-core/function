@@ -3,7 +3,7 @@ import type { wrap_a1_type } from './wrap_a1_type'
 /**
  * Returns `!=` operator to all values in `in_value_a1`.
  */
-export function neq<I extends unknown>(
+export function neq<I extends unknown = unknown>(
 	in_value_a1: wrap_a1_type<I>
 ): boolean {
 	const value_a1 = _wrap_a1<I>(in_value_a1)

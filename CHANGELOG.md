@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 16.1.1
+
+### Patch Changes
+
+- default generic types
+
 ## 16.1.0
 
 ### Minor Changes
