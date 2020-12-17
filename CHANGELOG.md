@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 16.1.5
+
+### Patch Changes
+
+- using export as instead of export const
+
 ## 16.1.4
 
 ### Patch Changes
