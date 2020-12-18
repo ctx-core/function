@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 16.2.0
+
+### Minor Changes
+
+- feat: debounce,throttle
+
 ## 16.1.5
 
 ### Patch Changes
