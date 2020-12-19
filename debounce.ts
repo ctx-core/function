@@ -6,7 +6,7 @@
  * @see {link:https://davidwalsh.name/javascript-debounce-function}
  */
 export function debounce<F extends Function>(func:F, wait?:number, immediate?:boolean):debounce_fn_type {
-	let timeout:number|null
+	let timeout:Timeout|number|null
 	return function (this:unknown) {
 		const apply_this = this, args = arguments
 		const later = () => {
@@ -14,11 +14,12 @@ export function debounce<F extends Function>(func:F, wait?:number, immediate?:bo
 			if (!immediate) func.apply(apply_this, args)
 		}
 		const callNow = immediate && !timeout
-		clearTimeout(timeout as number)
+		clearTimeout(timeout as Timeout)
 		timeout = setTimeout(later, wait)
 		if (callNow) func.apply(apply_this, args)
 	}
 }
+type Timeout = ReturnType<typeof setTimeout>
 export type debounce_fn_type = (this:unknown)=>void
 export type debounce_type<F extends Function> =
 	(func:F, wait?:number, immediate?:boolean)=>

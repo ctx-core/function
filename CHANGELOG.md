@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 16.2.1
+
+### Patch Changes
+
+- fix: debounce: timeout type signature
+
 ## 16.2.0
 
 ### Minor Changes
