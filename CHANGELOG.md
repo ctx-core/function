@@ -1,5 +1,17 @@
 # @ctx-core/function
 
+## 16.3.0
+
+### Minor Changes
+
+- feat: debounce: async
+
+  feat: isPromise
+
+  feat: promise_resolve_type
+
+  feat: promise_reject_type
+
 ## 16.2.1
 
 ### Patch Changes
