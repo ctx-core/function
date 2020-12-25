@@ -1,5 +1,16 @@
 # @ctx-core/function
 
+## 16.4.0
+
+### Minor Changes
+
+- feat: Timeout type
+
+### Patch Changes
+
+- - .rush
+- fix: debounce,throttle: type issues
+
 ## 16.3.0
 
 ### Minor Changes

@@ -1,5 +1,6 @@
 import { isPromise } from './isPromise'
 import type { promise_reject_type, promise_resolve_type } from './promise'
+import type { Timeout } from './Timeout'
 /**
  * Returns an async function, that, as long as it continues to be invoked, will not
  * be triggered. The function will be called after it stops being called for
@@ -16,7 +17,7 @@ export function debounce<F extends Function>(func:F, wait?:number, immediate?:bo
 			reject = in_reject
 		})
 		const apply_this = this, args = arguments
-		let rv, error
+		let rv: any, error: any
 		const later = async ()=>{
 			timeout = null
 			promise = null
@@ -49,7 +50,6 @@ export function debounce<F extends Function>(func:F, wait?:number, immediate?:bo
 		return promise
 	}
 }
-type Timeout = ReturnType<typeof setTimeout>
 export type debounce_fn_type = (this:unknown)=>Promise<void>
 export type debounce_type<F extends Function> =
 	(func:F, wait?:number, immediate?:boolean)=>
