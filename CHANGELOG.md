@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 16.6.1
+
+### Patch Changes
+
+- fix: timeout_promise: let id: Timeout type declaration
+
 ## 16.6.0
 
 ### Minor Changes
