@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 16.5.0
+
+### Minor Changes
+
+- feat: \_timeout_promise
+
 ## 16.4.0
 
 ### Minor Changes

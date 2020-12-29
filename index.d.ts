@@ -29,6 +29,7 @@ export * from './_right_and';
 export * from './_right_or';
 export * from './_slice_arg_a1';
 export * from './_tap';
+export * from './_timeout_promise';
 export * from './_val';
 export * from './_wrap_a1';
 export * from './_wrap_a2';
