@@ -1,5 +1,12 @@
 # @ctx-core/function
 
+## 16.7.0
+
+### Minor Changes
+
+- export type nullsy = nullish
+- feat: falsy_async_guard,falsy_guard,nullish_async_guard,nullish_guard
+
 ## 16.6.1
 
 ### Patch Changes

@@ -1,2 +1,2 @@
-import type { nullsy } from './nullsy';
-export declare type falsy = false | 0 | typeof NaN | '' | nullsy;
+import type { nullish } from './nullish';
+export declare type falsy = false | 0 | typeof NaN | '' | nullish;
