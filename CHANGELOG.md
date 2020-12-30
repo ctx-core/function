@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 16.8.0
+
+### Minor Changes
+
+- promise_timeout: timeout_promise calls promise_timeout with arguments flipped
+
 ## 16.7.0
 
 ### Minor Changes
