@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 16.8.1
+
+### Patch Changes
+
+- fix: add promise_timeout to index.ts
+
 ## 16.8.0
 
 ### Minor Changes
