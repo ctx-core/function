@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 16.8.2
+
+### Patch Changes
+
+- promise_timeout: timeout error stacktrace
+
 ## 16.8.1
 
 ### Patch Changes
