@@ -2,7 +2,7 @@ import type { andand_name_fn_type, andand_name_type } from './andand'
 /**
  * Applies `&&` to a chain of property name or function with return value from `obj`.
  */
-export function andand_<I, O = unknown>(
+export function andand_<I extends unknown = unknown, O extends unknown = unknown>(
 	obj:I,
 	...name_a1:andand_name_type<I, O>[]
 ) {
@@ -26,4 +26,6 @@ export function andand_<I, O = unknown>(
 	}
 	return out_value as I|O
 }
-export const andand__fn = andand_
+export {
+	andand_ as andand__fn
+}

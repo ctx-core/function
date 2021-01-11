@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 16.9.0
+
+### Minor Changes
+
+- typescript types
+
 ## 16.8.2
 
 ### Patch Changes

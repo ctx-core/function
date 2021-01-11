@@ -2,8 +2,8 @@
  * Applies `&&` to a chain of properties from `obj`.
  */
 export function andand<I extends unknown, O extends unknown>(
-	obj:I,
-	...name_a1:andand_name_type<I, O>[]
+	obj: I,
+	...name_a1: andand_name_type<I, O>[]
 ) {
 	let out_value = obj
 	for (let i = 0; i < name_a1.length; i++) {
@@ -19,6 +19,7 @@ export function andand<I extends unknown, O extends unknown>(
 	}
 	return out_value as I|O
 }
-export type andand_name_fn_type<I, O> = (val:I|O)=>I|O
-export type andand_name_type<I, O> =
+export type andand_name_fn_type<I extends unknown, O extends unknown> =
+	(val: I|O) => I|O
+export type andand_name_type<I extends unknown, O extends unknown> =
 	string|number|andand_name_fn_type<I, O>

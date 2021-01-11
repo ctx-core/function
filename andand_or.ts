@@ -2,11 +2,17 @@ import { andand, andand_name_type } from './andand'
 /**
  * Returns `andand(obj, name_a1) || or_fn(obj, val)`
  */
-export function andand_or<O = unknown, R = unknown>(obj:O, name_a1:andand_name_type<O, R>[], or_fn:andand_or_fn_type<O, R>) {
-	const val = andand<O, R>(obj, ...name_a1)
+export function andand_or</*@formatter:off*/
+	I extends unknown = unknown,
+	O extends unknown = unknown
+>(/*@formatter:on*/
+	obj: I, name_a1: andand_name_type<I, O>[], or_fn: andand_or_fn_type<I, O>
+) {
+	const val = andand<I, O>(obj, ...name_a1)
 	return val || or_fn(val, obj)
 }
-export type andand_or_fn_type<O = unknown, R = unknown> = (val:O|R, obj:O)=>R
+export type andand_or_fn_type<I extends unknown = unknown, O extends unknown = unknown> =
+	(val: I|O, obj: I) => O
 export {
 	andand_or as andand__or
 }
