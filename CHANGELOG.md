@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 16.9.1
+
+### Patch Changes
+
+- promise_timeout: Timed out after [ms]ms. error message
+
 ## 16.9.0
 
 ### Minor Changes
