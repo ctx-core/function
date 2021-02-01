@@ -11,4 +11,6 @@ export function _wrap_a1<I extends unknown = unknown>(value:a_nowrap_type<I>) {
 		: [value] as I[]
 	) as wrap_a1_type<I>
 }
-export const _a1__wrap = _wrap_a1
+export {
+	_wrap_a1 as _a1__wrap
+}

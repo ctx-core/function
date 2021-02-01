@@ -1,1 +1,1 @@
-export type map_fn_type<R = unknown> = (...args:unknown[])=>R
+export type map_fn_type<I extends unknown = unknown> = (...args:unknown[])=>I

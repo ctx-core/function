@@ -17,7 +17,6 @@ export function or_fn<I extends unknown, O extends unknown>(a1_unwrap: a_nowrap_
 		if (fn_value) return fn_value
 	}
 }
-export const or__fn = or_fn
 export interface or_fn_callable_type<I extends unknown = unknown> {
 	(...args: wrap_a1_type<I>): I
 }
@@ -27,5 +26,8 @@ export interface or_fn_callable_type<I extends unknown = unknown> {
 export function _or_fn<I extends unknown, O extends unknown>(a1_unwrap: a_nowrap_type<I>) {
 	return (value: I)=>or_fn<I, O>(wrap_concat<I>(a1_unwrap, value))
 }
-export const _or__fn = _or_fn
-export const _fn__or__fn = _or_fn
+export {
+	or_fn as on__fn,
+	_or_fn as _or__fn,
+	_or_fn as _fn__or__fn
+}

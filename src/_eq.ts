@@ -6,4 +6,6 @@ import { wrap_concat } from './wrap_concat'
 export function _eq(in_value_a1:any|unknown[]):(value:any|unknown[])=>boolean {
 	return value=>eq(wrap_concat(in_value_a1, value))
 }
-export const _fn__eq = _eq
+export {
+	_eq as _fn__eq
+}

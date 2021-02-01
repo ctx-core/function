@@ -8,4 +8,6 @@ import type { a_nowrap_type } from './a_nowrap_type'
 export function _left_or<I extends unknown = unknown>(a1_unwrap: a_nowrap_type<I>) {
 	return (value: I)=>or<wrap_a1_type<I>>(wrap_concat<I>(a1_unwrap, value))
 }
-export const _or__left = _left_or
+export {
+	_left_or as _or__left
+}

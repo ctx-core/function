@@ -1,7 +1,7 @@
 /**
  * Calls setTimeout
  */
-export function tick<T = unknown>(fn: () => T, timeout = 0) {
+export function tick<I extends unknown = unknown>(fn:()=>I, timeout = 0) {
 	return new Promise((resolve, reject)=>{
 		setTimeout(()=>{
 			let rv

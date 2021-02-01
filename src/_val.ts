@@ -1,3 +1,3 @@
-export function _val<T = unknown>(val: T) {
+export function _val<I extends unknown = unknown>(val:I) {
 	return ()=>val
 }

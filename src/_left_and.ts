@@ -8,4 +8,6 @@ import type { wrap_a1_type } from './wrap_a1_type'
 export function _left_and<I extends unknown = unknown>(a1_unwrap: a_nowrap_type<I>) {
 	return (value: I)=>and<wrap_a1_type<I>>(wrap_concat<I>(a1_unwrap, value))
 }
-export const _and__left = _left_and
+export {
+	_left_and as _and__left
+}

@@ -1,5 +1,12 @@
 # @ctx-core/function
 
+## 17.0.1
+
+### Patch Changes
+
+- alias using export as
+- generics use extends
+
 ## 17.0.0
 
 ### Major Changes

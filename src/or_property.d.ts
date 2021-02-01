@@ -1,5 +1,5 @@
 /**
  * Returns first obj property that is truthy
  */
-export declare function or_property<T = unknown>(obj: T, name_a1: string[]): T[keyof T] | undefined;
-export declare const or__property: typeof or_property;
+export declare function or_property<I extends unknown = unknown>(obj: I, name_a1: string[]): I[keyof I] | undefined;
+export { or_property as or__property };

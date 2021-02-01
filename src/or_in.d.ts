@@ -1,5 +1,5 @@
 /**
  * Returns first obj property that is in the obj
  */
-export declare function or_in<T = unknown>(obj: T, name_a1: string[]): string | undefined;
-export declare const or__in: typeof or_in;
+export declare function or_in<I extends unknown = unknown>(obj: I, name_a1: string[]): string | undefined;
+export { or_in as or__in };
