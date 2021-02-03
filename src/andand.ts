@@ -17,9 +17,9 @@ export function andand<I extends unknown, O extends unknown>(
 				: in_value
 			)
 	}
-	return out_value as I|O
+	return out_value as O
 }
 export type andand_name_fn_type<I extends unknown, O extends unknown> =
-	(val: I|O) => I|O
+	(val: I) => O
 export type andand_name_type<I extends unknown, O extends unknown> =
 	string|number|andand_name_fn_type<I, O>

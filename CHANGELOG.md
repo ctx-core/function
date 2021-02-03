@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.1.0
+
+### Minor Changes
+
+- andand,andand*,map_andand*,map_andand_or,map_andand: return type is O generic instead of I|O
+
 ## 17.0.1
 
 ### Patch Changes

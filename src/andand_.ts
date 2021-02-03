@@ -14,7 +14,7 @@ export function andand_<I extends unknown = unknown, O extends unknown = unknown
 			out_value
 			&& (
 				out_value as Record<string, unknown>)[segment as string|number]
-		) as I|O
+		) as O
 		in_value = in_value || (
 			(typeof segment === 'function')
 			? (segment as andand_name_fn_type<I, O>)(out_value)
@@ -24,7 +24,7 @@ export function andand_<I extends unknown = unknown, O extends unknown = unknown
 			? in_value.call(out_value)
 			: in_value
 	}
-	return out_value as I|O
+	return out_value as O
 }
 export {
 	andand_ as andand__fn
