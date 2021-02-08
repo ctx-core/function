@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.2.0
+
+### Minor Changes
+
+- nf type: null|false
+
 ## 17.1.0
 
 ### Minor Changes
