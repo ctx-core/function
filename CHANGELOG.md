@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.3.3
+
+### Patch Changes
+
+- fix: Timeout added to index
+
 ## 17.3.2
 
 ### Patch Changes

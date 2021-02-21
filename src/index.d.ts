@@ -76,6 +76,7 @@ export * from './slice_arg_a1';
 export * from './tap';
 export * from './throttle';
 export * from './tick';
+export * from './Timeout';
 export * from './timeout_promise';
 export * from './times';
 export * from './wrap_a_type';
