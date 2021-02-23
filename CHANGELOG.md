@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.3.5
+
+### Patch Changes
+
+- fix: typescript build
+
 ## 17.3.4
 
 ### Patch Changes
