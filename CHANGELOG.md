@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.3.6
+
+### Patch Changes
+
+- version bump
+
 ## 17.3.5
 
 ### Patch Changes
