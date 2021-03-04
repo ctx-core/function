@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.4.0
+
+### Minor Changes
+
+- const t = true,const f = false
+
 ## 17.3.6
 
 ### Patch Changes
