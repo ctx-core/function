@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.4.2
+
+### Patch Changes
+
+- fix: npm run compile: tsc -b .
+
 ## 17.4.1
 
 ### Patch Changes

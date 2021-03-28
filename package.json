@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/function",
-	"version": "17.4.1",
+	"version": "17.4.2",
 	"description": "ctx-core function",
 	"keywords": [
 		"ctx-core",
@@ -22,7 +22,7 @@
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
-		"compile": "./node_modules/.bin/tsc -b",
+		"compile": "./node_modules/.bin/tsc -b .",
 		"exec": "$@",
 		"prepublishOnly": "npm run compile"
 	},
