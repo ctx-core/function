@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.4.3
+
+### Patch Changes
+
+- fix: npm publish: https://github.com/npm/cli/issues/2834
+
 ## 17.4.2
 
 ### Patch Changes
