@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.4.7
+
+### Patch Changes
+
+- compose: return type: O extends unknown = unknown
+
 ## 17.4.6
 
 ### Patch Changes
