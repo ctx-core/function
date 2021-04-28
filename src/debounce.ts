@@ -11,12 +11,12 @@ import type { Timeout } from './Timeout'
 export function debounce<F extends Function>(func:F, wait?:number, immediate?:boolean):debounce_fn_type {
 	let timeout:Timeout|number|null
 	let promise:Promise<any>|null, resolve: promise_resolve_type<any>, reject: promise_reject_type
-	return async function (this:unknown) {
+	return async function (this:unknown, ...args) {
 		if (!promise) promise = new Promise((in_resolve, in_reject) => {
 			resolve = in_resolve
 			reject = in_reject
 		})
-		const apply_this = this, args = arguments
+		const apply_this = this
 		let rv: any, error: any
 		const later = async ()=>{
 			timeout = null

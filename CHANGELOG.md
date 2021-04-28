@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.4.8
+
+### Patch Changes
+
+- fix: debounce: strict type issue
+
 ## 17.4.7
 
 ### Patch Changes
