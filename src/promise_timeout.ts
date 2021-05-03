@@ -1,6 +1,6 @@
 import type { Timeout } from './Timeout'
 export async function promise_timeout<O extends unknown = unknown>(
-	promise:Promise<O>, ms:number
+	promise:(()=>Promise<O>)|Promise<O>, ms:number
 ):Promise<O> {
 	let id:Timeout
 	const error = new Error(`Timed out after ${ms}ms.`)
@@ -8,7 +8,7 @@ export async function promise_timeout<O extends unknown = unknown>(
 		id = setTimeout(()=>reject(error), ms)
 	})
 	return Promise.race([
-		promise,
+		typeof promise === 'function' ? promise() : promise,
 		timeout
 	]).then((result)=>{
 		clearTimeout(id)

@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.4.9
+
+### Patch Changes
+
+- promise_timeout: takes either an async function or a Promise
+
 ## 17.4.8
 
 ### Patch Changes
