@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.7.0
+
+### Minor Changes
+
+- feat: performance_now
+
 ## 17.6.0
 
 ### Minor Changes
