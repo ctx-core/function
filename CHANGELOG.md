@@ -1,5 +1,12 @@
 # @ctx-core/function
 
+## 17.5.0
+
+### Minor Changes
+
+- feat: sleep
+- feat: waitfor
+
 ## 17.4.9
 
 ### Patch Changes
