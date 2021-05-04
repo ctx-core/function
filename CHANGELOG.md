@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.7.1
+
+### Patch Changes
+
+- fix: performance_now: nodejs instances
+
 ## 17.7.0
 
 ### Minor Changes
