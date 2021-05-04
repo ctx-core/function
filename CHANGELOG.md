@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.6.0
+
+### Minor Changes
+
+- feat: \_stacktrace,\_stacktrace_filename,\_stacktrace_line,\_stacktrace_line_pos,\_stacktrace_filename_line
+
 ## 17.5.0
 
 ### Minor Changes
