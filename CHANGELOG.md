@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.8.2
+
+### Patch Changes
+
+- fix: run: return type is inferred from return type of fn argument
+
 ## 17.8.1
 
 ### Patch Changes
