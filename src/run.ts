@@ -1,3 +1,3 @@
-export function run(fn) {
-  return fn()
+export function run<O extends unknown = unknown>(fn):O {
+	return fn()
 }

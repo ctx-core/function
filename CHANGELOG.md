@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.8.1
+
+### Patch Changes
+
+- run: return type: O extends unknown = unknown
+
 ## 17.8.0
 
 ### Minor Changes

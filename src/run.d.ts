@@ -1,1 +1,1 @@
-export declare function run(fn: any): any;
+export declare function run<O extends unknown = unknown>(fn: any): O;
