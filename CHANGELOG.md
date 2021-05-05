@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.8.0
+
+### Minor Changes
+
+- feat: run
+
 ## 17.7.1
 
 ### Patch Changes
