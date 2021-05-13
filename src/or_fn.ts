@@ -18,6 +18,7 @@ export function or_fn<I extends unknown, O extends unknown>(
 			: value
 		if (fn_value) return fn_value
 	}
+	return
 }
 export interface or_fn_callable_type<I extends unknown = unknown> {
 	(...args:wrap_a1_type<I>):I

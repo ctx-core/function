@@ -7,6 +7,7 @@ export function or_property<I extends unknown = unknown>(obj:I, name_a1:string[]
 		const value = (obj as any)[name]
 		if (value) return value as I[keyof I]
 	}
+	return
 }
 export {
 	or_property as or__property

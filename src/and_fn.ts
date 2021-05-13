@@ -16,6 +16,7 @@ export function and_fn</*@formatter:off*/
 			if (!out_fn_value) return out_fn_value
 		}
 	}
+	return
 }
 export {
 	and_fn as and__fn

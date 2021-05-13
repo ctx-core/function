@@ -1,5 +1,3 @@
-declare const performance:Performance|undefined
-declare const process:NodeJS.Process|undefined
 const has_performance = typeof performance !== 'undefined'
 const has_process = typeof process !== 'undefined'
 const has_hrtime = has_process && typeof process!['hrtime'] !== 'undefined'

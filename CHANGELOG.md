@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.8.4
+
+### Patch Changes
+
+- fix types
+
 ## 17.8.3
 
 ### Patch Changes
