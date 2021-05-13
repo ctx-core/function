@@ -1,5 +1,4 @@
 import { _wrap_a1 } from './_wrap_a1'
-import type { maybe } from './maybe'
 import type { falsy } from './falsy'
 /**
  * Returns the first falsy or last item function call or value in `in_value_a1` .
@@ -7,7 +6,7 @@ import type { falsy } from './falsy'
 export function and_fn</*@formatter:off*/
 	I extends unknown = unknown,
 	O extends unknown = unknown
->/*@formatter:on*/(a1_nowrap: I): maybe<O> {
+>/*@formatter:on*/(a1_nowrap:I):O|falsy {
 	const value_a1 = _wrap_a1<I>(a1_nowrap)
 	for (let i = 0; i < value_a1.length; i++) {
 		const value = value_a1[i]

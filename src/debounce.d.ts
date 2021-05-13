@@ -5,6 +5,6 @@
  * leading edge, instead of the trailing.
  * @see {link:https://davidwalsh.name/javascript-debounce-function}
  */
-export declare function debounce<F extends Function>(func: F, wait?: number, immediate?: boolean): debounce_fn_type;
+export declare function debounce<F extends Function>(func: F, wait: number, immediate?: boolean): debounce_fn_type;
 export declare type debounce_fn_type = (this: unknown) => Promise<void>;
-export declare type debounce_type<F extends Function> = (func: F, wait?: number, immediate?: boolean) => debounce_fn_type;
+export declare type debounce_type<F extends Function> = (func: F, wait: number, immediate?: boolean) => debounce_fn_type;
