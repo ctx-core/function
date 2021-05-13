@@ -1,8 +1,9 @@
+declare const performance:any
 const has_performance = typeof performance !== 'undefined'
 const has_process = typeof process !== 'undefined'
 const has_hrtime = has_process && typeof process!['hrtime'] !== 'undefined'
 const has_Date_now = typeof Date.now !== 'undefined'
-const load_time =
+const load_time:number =
 	has_performance
 	? performance!.now()
 	: has_hrtime
@@ -10,7 +11,7 @@ const load_time =
 		: has_Date_now
 			? Date.now()
 			: new Date().getTime()
-export const performance_now =
+export const performance_now:()=>number =
 	has_performance
 	? ()=>performance!.now()
 	: has_hrtime
@@ -22,7 +23,7 @@ export const performance_now =
 		: has_Date_now
 			? ()=>Date.now() - load_time
 			: ()=>new Date().getTime() - load_time
-function getNanoSeconds() {
+function getNanoSeconds():number {
 	const hr = process!.hrtime()
 	return hr[0] * 1e9 + hr[1]
 }
