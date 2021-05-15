@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.9.0
+
+### Minor Changes
+
+- "noImplicitAny": true
+
 ## 17.8.5
 
 ### Patch Changes

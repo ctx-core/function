@@ -1,1 +1,1 @@
-export const _null = () => null
+export const _null:()=>null = ()=>null
