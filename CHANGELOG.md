@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.9.1
+
+### Patch Changes
+
+- fix: target: 2018: nodejs compatability
+
 ## 17.9.0
 
 ### Minor Changes
