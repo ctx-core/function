@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.9.2
+
+### Patch Changes
+
+- .npmignore: + ~
+
 ## 17.9.1
 
 ### Patch Changes
