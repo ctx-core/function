@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.10.1
+
+### Patch Changes
+
+- .gitignore: - \*.js
+
 ## 17.10.0
 
 ### Minor Changes
