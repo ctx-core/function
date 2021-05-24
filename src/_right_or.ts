@@ -5,14 +5,16 @@ import type { a_nowrap_type } from './a_nowrap_type'
 /**
  * Returns function that returns first truthy or last item in `a1_unwrap`.
  */
-export function _right_or<I extends unknown = unknown>(a1_unwrap:a_nowrap_type<I>) {
+export function _right_or<Val extends unknown = unknown>(
+	a1_unwrap:a_nowrap_type<Val>
+) {
 	return (
-		(fn_a1_unwrap:I)=>
-			or<I>(
-				concat<I>(
-					_wrap_a1<I>(fn_a1_unwrap) as I[],
-					...(_wrap_a1<I>(a1_unwrap) as I[])
-				) as I
+		(fn_a1_unwrap:Val)=>
+			or<Val>(
+				concat<Val>(
+					_wrap_a1<Val>(fn_a1_unwrap) as Val[],
+					...(_wrap_a1<Val>(a1_unwrap) as Val[])
+				) as Val
 			)
 	)
 }

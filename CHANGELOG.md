@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.10.0
+
+### Minor Changes
+
+- dist,types directory: addressing typescript build issues
+
 ## 17.9.3
 
 ### Patch Changes
