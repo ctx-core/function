@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.9.3
+
+### Patch Changes
+
+- types: ./src/index.d.ts: address error TS2742 issue
+
 ## 17.9.2
 
 ### Patch Changes
