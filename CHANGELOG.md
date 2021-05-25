@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.11.0
+
+### Minor Changes
+
+- fix tsc build directory issues
+
 ## 17.10.1
 
 ### Patch Changes
