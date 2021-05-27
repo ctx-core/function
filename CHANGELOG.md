@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 17.11.1
+
+### Patch Changes
+
+- update dependencies
+
 ## 17.11.0
 
 ### Minor Changes
