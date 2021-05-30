@@ -1,11 +1,11 @@
-import { _wrap_a1 } from './_wrap_a1'
+import { wrap_a_ } from './wrap_a_'
 /**
- * Returns first truthy or last item in `a1_unwrap`.
+ * Returns first truthy or last item in `a_unwrap`.
  */
-export function or<I extends unknown = unknown>(a1_unwrap: I) {
-	const value_a1 = _wrap_a1<I>(a1_unwrap)
-	for (let i = 0; i < value_a1.length; i++) {
-		const value = value_a1[i]
+export function or<I extends unknown = unknown>(a_unwrap: I) {
+	const value_a = wrap_a_<I>(a_unwrap)
+	for (let i = 0; i < value_a.length; i++) {
+		const value = value_a[i]
 		if (value) return value
 	}
 }

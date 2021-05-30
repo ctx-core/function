@@ -1,5 +1,12 @@
 # @ctx-core/function
 
+## 18.0.0
+
+### Major Changes
+
+- \$ suffix for stores
+- \_ suffix for factory functions
+
 ## 17.11.1
 
 ### Patch Changes
@@ -361,10 +368,10 @@
 ### Minor Changes
 
 - \_wrap_a2
-  wrap_a1_item_type
+  wrap_a_item_T
   wrap_a2_item_type
-  wrap_a2_type
-  wrap_a_type
+  wrap_a2_T
+  wrap_a_T2
   wrap_concat
 
 ### Patch Changes
@@ -391,7 +398,7 @@
 
 ### Minor Changes
 
-- Added maybe, wrap_a1_type, wrap_a2_type
+- Added maybe, wrap_a1_type, wrap_a2_T
 
 ### Patch Changes
 

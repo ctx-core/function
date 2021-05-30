@@ -2,12 +2,12 @@
  * Array#`concat`
  */
 export function concat<I extends unknown = unknown>(
-	a1?: I[], ...rest_a1: I[]|I[][]
+	a?: I[], ...rest_a: I[]|I[][]
 ) {
-	return ((a1 || []) as I[]).concat(...rest_a1) as I[]
+	return ((a || []) as I[]).concat(...rest_a) as I[]
 }
 export function maybe_concat<I extends unknown = unknown>(
-	a1?: I[], ...rest_a1: I[]|I[][]
+	a?: I[], ...rest_a: I[]|I[][]
 ) {
-	return ((a1 || []) as I[]).concat(...rest_a1) as I[]
+	return ((a || []) as I[]).concat(...rest_a) as I[]
 }

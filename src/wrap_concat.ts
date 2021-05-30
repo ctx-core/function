@@ -1,21 +1,21 @@
 import { concat } from './concat'
-import { _wrap_a1 } from './_wrap_a1'
-import type { wrap_a1_type } from './wrap_a1_type'
-import { _wrap_a2 } from './_wrap_a2'
-import type { a_nowrap_type } from './a_nowrap_type'
-import type { wrap_a_type } from './wrap_a_type'
+import { wrap_a_ } from './wrap_a_'
+import type { wrap_a_T } from './wrap_a_T'
+import { wrap_a2_ } from './wrap_a2_'
+import type { a_nowrap_T } from './a_nowrap_T'
+import type { wrap_a_T2 } from './wrap_a_T2'
 /**
- * [wrap](#wrap) `a1_unwrap` & [concat](#concat) `rest_a1`
+ * [wrap](#wrap) `a_unwrap` & [concat](#concat) `rest_a`
  */
 export function wrap_concat<I extends unknown = unknown>(
-	a1_unwrap: a_nowrap_type<I>,
-	...rest_a1: wrap_a_type<I>
+	a_unwrap: a_nowrap_T<I>,
+	...rest_a: wrap_a_T2<I>
 ) {
 	return (
 		concat<I>(
-			_wrap_a1<I>(a1_unwrap) as I[],
-			...(_wrap_a2<I>(rest_a1) as I[]|I[][])
-		) as wrap_a1_type<I>
+			wrap_a_<I>(a_unwrap) as I[],
+			...(wrap_a2_<I>(rest_a) as I[]|I[][])
+		) as wrap_a_T<I>
 	)
 }
 export {

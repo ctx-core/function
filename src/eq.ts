@@ -1,14 +1,15 @@
-import { _wrap_a1 } from './_wrap_a1'
+import { wrap_a_ } from './wrap_a_'
+import type { a_nowrap_T } from './a_nowrap_T'
 /**
- * Returns `==` operator to all values in `a1_nowrap`.
+ * Returns `==` operator to all values in `a_nowrap`.
  */
-export function eq<I extends unknown = unknown>(a1_nowrap: I): boolean {
-	const value_a1 = _wrap_a1<I>(a1_nowrap) as unknown[]
-	let current_value = value_a1[0]
-	for (let i = 1; i < value_a1.length; i++) {
-		const value = value_a1[i]
+export function eq<In extends unknown = unknown>(a_nowrap:a_nowrap_T<In>):boolean {
+	const value_a = wrap_a_<In>(a_nowrap) as unknown[]
+	let current_value = value_a[0]
+	for (let i = 1; i < value_a.length; i++) {
+		const value = value_a[i]
 		if (current_value != value) return false
 	}
 	return true
 }
-export type eq_type<I extends unknown = unknown> = (a1_nowrap: I) => boolean
+export type eq_T<I extends unknown = unknown> = (a_nowrap:I)=>boolean

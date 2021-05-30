@@ -2,11 +2,11 @@
  * Applies `&&` to a chain of properties from `obj`.
  */
 export function andand<Val extends unknown = unknown, Out extends unknown = unknown>(
-	obj:Val, ...name_a1:andand_key_T<Val>[]
+	obj:Val, ...name_a:andand_key_T<Val>[]
 ):Out|null {
 	let out_value = obj
-	for (let i = 0; i < name_a1.length; i++) {
-		const segment = name_a1[i]
+	for (let i = 0; i < name_a.length; i++) {
+		const segment = name_a[i]
 		return (
 			out_value
 			? typeof segment === 'function'
