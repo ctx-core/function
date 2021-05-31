@@ -14,6 +14,7 @@ export function one_andand_or_</*@formatter:off*/
 	return (obj:In)=>andand_or<In, Out>(obj, name_a, or_fn)
 }
 export {
+	one_andand_or_ as andand_or_,
 	one_andand_or_ as _one_andand_or,
 	one_andand_or_ as _andand_or,
 	one_andand_or_ as _andand__or,

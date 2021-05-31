@@ -24,6 +24,5 @@ export function andandfn<Val extends unknown = unknown, Out extends unknown = un
 	return out_value as Out
 }
 export {
-	andandfn as andand_,
 	andandfn as andand__fn,
 }

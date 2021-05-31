@@ -8,6 +8,7 @@ export function one_andand_<Val extends unknown = unknown, Out extends unknown =
 	return ((obj:Val)=>andand<Val, Out>(obj, ...name_a))
 }
 export {
+	one_andand_ as andand_,
 	one_andand_ as _one_andand,
 	one_andand_ as _andand,
 	one_andand_ as _andand__one,
