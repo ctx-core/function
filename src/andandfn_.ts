@@ -1,13 +1,15 @@
-import { andandfn } from './andandfn'
+import { andandfn, andandfn_T } from './andandfn'
 import type { andand_key_fn_T } from './andand'
 /**
  * Returns a function that calls `andand_(obj, ...name_a)`
  */
 export function andandfn_</*@formatter:off*/
-	I extends unknown = unknown,
-	O extends unknown = unknown
->/*@formatter:on*/(...name_a: andand_key_fn_T<I>[]) {
-	return (obj: I) => andandfn<I, O>(obj, ...name_a)
+	In extends unknown = unknown,
+	Out extends unknown = unknown
+>/*@formatter:on*/(
+	...name_a:andand_key_fn_T<In>[]
+):andandfn_T<In, Out> {
+	return (obj:In)=>andandfn<In, Out>(obj, ...name_a)
 }
 export {
 	andandfn_ as _andand_,

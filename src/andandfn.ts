@@ -23,6 +23,10 @@ export function andandfn<Val extends unknown = unknown, Out extends unknown = un
 	}
 	return out_value as Out
 }
+export type andandfn_T</*@formatter:off*/
+	In extends unknown = unknown,
+	Out extends unknown = unknown
+>/*@formatter:on*/ = (obj:In)=>Out
 export {
 	andandfn as andand__fn,
 }

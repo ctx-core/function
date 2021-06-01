@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 18.1.0
+
+### Minor Changes
+
+- - andandfn_T
+
 ## 18.0.1
 
 ### Patch Changes
