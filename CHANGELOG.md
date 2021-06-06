@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 18.1.2
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+
 ## 18.1.1
 
 ### Patch Changes
