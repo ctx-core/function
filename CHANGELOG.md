@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 18.1.1
+
+### Patch Changes
+
+- fix: andandfn\_: ...name_a:andand_key_T<In>[]
+
 ## 18.1.0
 
 ### Minor Changes
