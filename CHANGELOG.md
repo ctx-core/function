@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 18.1.3
+
+### Patch Changes
+
+- version bump: run build
+
 ## 18.1.2
 
 ### Patch Changes
