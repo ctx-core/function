@@ -1,0 +1,1 @@
+{"version":3,"file":"ifelse.js","sourceRoot":"","sources":["../ifelse.ts"],"names":[],"mappings":"AAAA;;GAEG;AACH,MAAM,UAAU,MAAM,CACrB,WAAa,EAAE,KAAwB,EAAE,OAA0B;IAEnE,OAAO,CACN,WAAW;QACX,CAAC,CAAC,KAAK,CAAC,WAAW,CAAC;QACpB,CAAC,CAAC,OAAO,CAAC,WAAW,CAAC,CACtB,CAAA;AACF,CAAC"}

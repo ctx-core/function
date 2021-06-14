@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 19.0.0
+
+### Major Changes
+
+- move from dist to src directory
+
 ## 18.1.3
 
 ### Patch Changes

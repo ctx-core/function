@@ -1,0 +1,1 @@
+{"version":3,"file":"timeout_promise.js","sourceRoot":"","sources":["../timeout_promise.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,eAAe,EAAE,MAAM,mBAAmB,CAAA;AACnD;;;GAGG;AACH,MAAM,CAAC,KAAK,UAAU,eAAe,CAA8B,EAAU,EAAE,OAAmB;IAChG,OAAO,MAAM,eAAe,CAAI,OAAO,EAAE,EAAE,CAAM,CAAA;AACnD,CAAC;AACD,OAAO,EACL,eAAe,IAAI,gBAAgB,EACpC,CAAA"}
