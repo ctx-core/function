@@ -1,5 +1,5 @@
 /**
  * Returns function that does nothing
  */
-export function noop(..._: unknown[]) {
+export function noop(..._: unknown[]):void {
 }

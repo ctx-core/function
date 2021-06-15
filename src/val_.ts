@@ -1,4 +1,4 @@
-export function val_<I extends unknown = unknown>(val:I) {
+export function val_<I extends unknown = unknown>(val:I):()=>I {
 	return ()=>val
 }
 export {

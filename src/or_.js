@@ -20,8 +20,8 @@ export function or_(a_unwrap) {
 /**
  * Returns function that returns first truthy or last item call or value in `a_unwrap`.
  */
-export function _or_fn(a_unwrap) {
-    return (value) => or_(wrap_concat(a_unwrap, value));
+export function or_fn_(a_unwrap) {
+    return (val) => or_(wrap_concat(a_unwrap, val));
 }
-export { or_ as on__fn, _or_fn as _or__fn, _or_fn as _fn__or__fn };
+export { or_ as on__fn, or_fn_ as _or__fn, or_fn_ as _fn__or__fn };
 //# sourceMappingURL=src/or_.js.map

@@ -7,7 +7,7 @@ export function andand_or</*@formatter:off*/
 	Out extends unknown = unknown
 >(/*@formatter:on*/
 	obj:Val, name_a:andand_key_T<Val>[], or_fn:andand_or_T<Val, Out>
-):Out|null {
+):Out {
 	const val = andand<Val, Out>(obj, ...name_a)
 	return val || or_fn(val, obj)
 }

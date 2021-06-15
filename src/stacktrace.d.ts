@@ -1,5 +1,5 @@
-export declare function _stacktrace(): string[];
-export declare function _stacktrace_filename(): string;
-export declare function _stacktrace_line(): number;
-export declare function _stacktrace_line_pos(): string;
-export declare function _stacktrace_filename_line(stack_line?: string): string;
+export declare function stacktrace_(): string[];
+export declare function stacktrace_filename_(): string;
+export declare function stacktrace_line_(): number;
+export declare function stacktrace_line_pos_(): string;
+export declare function stacktrace_filename_line_(stack_line?: string): string;

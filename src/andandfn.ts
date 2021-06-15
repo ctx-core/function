@@ -5,7 +5,7 @@ import type { andand_key_fn_T, andand_key_T } from './andand'
 export function andandfn<Val extends unknown = unknown, Out extends unknown = unknown>(
 	obj:Val,
 	...name_a:andand_key_T<Val>[]
-) {
+):Out {
 	let out_value = obj
 	for (let i = 0; i < name_a.length; i++) {
 		if (!out_value) break
@@ -24,9 +24,9 @@ export function andandfn<Val extends unknown = unknown, Out extends unknown = un
 	return out_value as Out
 }
 export type andandfn_T</*@formatter:off*/
-	In extends unknown = unknown,
+	Val extends unknown = unknown,
 	Out extends unknown = unknown
->/*@formatter:on*/ = (obj:In)=>Out
+>/*@formatter:on*/ = (obj:Val)=>Out
 export {
 	andandfn as andand__fn,
 }

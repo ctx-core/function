@@ -1,6 +1,6 @@
 /**
  * Returns `!value`
  */
-export function invert(value:unknown) {
+export function invert(value:unknown):boolean {
 	return !value
 }

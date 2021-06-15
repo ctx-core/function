@@ -9,7 +9,7 @@ export function bind_map_call_</*@formatter:off*/
 	Self extends unknown = unknown,
 >(/*@formatter:on*/
 	fn_a:call_fn_T<A_outer, Out>[], self:Self, ...fac_arg_a:A_outer
-) {
+):(...fn_arg_a:A_inner)=>A_outer {
 	return (...fn_arg_a:A_inner)=>fn_a.map(
 		(fn:call_fn_T<A_outer, Out>)=>
 			fn.call(self, ...[...fac_arg_a, ...fn_arg_a] as A_outer)

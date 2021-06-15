@@ -10,7 +10,7 @@ export function apply_</*@formatter:off*/
 	O2 extends unknown = unknown,
 >/*@formatter:on*/(
 	fn:call_fn_T<A2, O2>, in_arg_a:unknown[] = []
-) {
+):bind_call_T<A1, O1> {
 	return (
 		(...fn_arg_a:A1)=>(fn(...[...in_arg_a, ...fn_arg_a] as A2)) as O1
 	) as bind_call_T<A1, O1>

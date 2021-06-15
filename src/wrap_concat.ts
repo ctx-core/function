@@ -10,7 +10,7 @@ import type { wrap_a_T2 } from './wrap_a_T2'
 export function wrap_concat<I extends unknown = unknown>(
 	a_unwrap: a_nowrap_T<I>,
 	...rest_a: wrap_a_T2<I>
-) {
+):wrap_a_T<I> {
 	return (
 		concat<I>(
 			wrap_a_<I>(a_unwrap) as I[],

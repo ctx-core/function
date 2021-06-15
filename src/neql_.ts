@@ -5,8 +5,10 @@ import { wrap_concat } from './wrap_concat'
  * @param in_value_a
  * @returns {function(*=): boolean}
  */
-export function neql_(in_value_a:unknown) {
-	return (value:unknown)=>neql(wrap_concat(in_value_a, value))
+export function neql_<Arg extends unknown = unknown>(
+	in_value_a:Arg[]
+):(value:Arg)=>boolean {
+	return (value:Arg)=>neql(wrap_concat(in_value_a, value))
 }
 export {
 	neql_ as _neql,

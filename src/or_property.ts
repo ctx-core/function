@@ -1,7 +1,9 @@
 /**
  * Returns first obj property that is truthy
  */
-export function or_property<I extends unknown = unknown>(obj:I, name_a:string[]):I[keyof I]|undefined {
+export function or_property<I extends unknown = unknown>(
+	obj:I, name_a:string[]
+):I[keyof I]|undefined {
 	for (let i = 0; i < name_a.length; i++) {
 		const name = name_a[i]
 		const value = (obj as any)[name]

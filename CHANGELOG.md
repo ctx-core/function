@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 19.1.0
+
+### Minor Changes
+
+- return types
+
 ## 19.0.0
 
 ### Major Changes

@@ -1,7 +1,7 @@
 import type { falsy } from './falsy'
 export function falsy_guard<Val extends unknown = unknown>(
-	label:string, ...fns:(()=>(falsy|Val))[]
-) {
+	label:string, ...fns:(()=>(Val|falsy))[]
+):Val|falsy {
 	for (const fn of fns) {
 		const rv = fn()
 		if (rv)

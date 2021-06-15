@@ -10,7 +10,7 @@ export function bind_apply_</*@formatter:off*/
 	Out extends unknown = unknown,
 >(/*@formatter:on*/
 	fn:call_fn_T<A_inner, Out>, self:Self, in_arg_a?:A_outer
-) {
+):bind_call_T<A_inner, Out> {
 	return (
 		(...fn_arg_a:A_inner)=>
 			fn.apply(

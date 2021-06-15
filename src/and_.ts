@@ -5,7 +5,7 @@ import type { falsy } from './falsy'
  */
 export function and_</*@formatter:off*/
 	I extends unknown = unknown,
-	O extends unknown = unknown
+	O extends unknown = I
 >/*@formatter:on*/(a_nowrap:I):O|falsy {
 	const value_a = wrap_a_<I>(a_nowrap)
 	for (let i = 0; i < value_a.length; i++) {

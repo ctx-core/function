@@ -1,7 +1,7 @@
 import type { falsy } from './falsy'
 export async function falsy_async_guard<Val extends unknown = unknown>(
-	label:string, ...fns:(()=>Promise<falsy|Val>)[]
-) {
+	label:string, ...fns:(()=>Promise<Val|falsy>)[]
+):Promise<Val|falsy> {
 	for (const fn of fns) {
 		const rv = await fn()
 		if (rv)

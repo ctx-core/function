@@ -9,11 +9,11 @@ export function bind_map_apply_</*@formatter:off*/
 	S1 extends unknown = unknown,
 	A2 extends unknown[] = unknown[],
 >/*@formatter:on*/(
-	fn_a: call_fn_T<A1, O1>[], self: S1, in_arg_a: A2
-) {
-	return (...fn_arg_a: A1) =>
+	fn_a:call_fn_T<A1, O1>[], self:S1, in_arg_a:A2
+):(...fn_arg_a:A1)=>O1[] {
+	return (...fn_arg_a:A1)=>
 		fn_a.map(
-			(fn: call_fn_T<A1, O1>) =>
+			(fn:call_fn_T<A1, O1>)=>
 				(
 					bind_apply_<S1, A2, A1, O1>(fn, self, in_arg_a)
 				)(...fn_arg_a)

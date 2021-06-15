@@ -7,7 +7,7 @@ import type { a_nowrap_T } from './a_nowrap_T'
  */
 export function right_or_<Val extends unknown = unknown>(
 	a_unwrap:a_nowrap_T<Val>
-) {
+):(fn_a_unwrap:Val)=>Val|undefined {
 	return (
 		(fn_a_unwrap:Val)=>
 			or<Val>(

@@ -4,7 +4,7 @@ import type { falsy } from './falsy'
  */
 export function call_or_fn_<Val extends unknown = unknown, Out extends unknown = unknown>(
 	fn_a:((value:Val)=>Out)[]
-) {
+):(value:Val)=>Out|falsy {
 	return (value:Val)=>{
 		let out_value:Out|falsy = null
 		for (let i = 0; i < fn_a.length; i += 1) {

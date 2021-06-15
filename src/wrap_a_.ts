@@ -4,7 +4,7 @@ const { isArray } = Array
 /**
  * Returns `value` if array & `[value]` otherwise
  */
-export function wrap_a_<I extends unknown = unknown>(value:a_nowrap_T<I>) {
+export function wrap_a_<I extends unknown = unknown>(value:a_nowrap_T<I>):wrap_a_T<I> {
 	return (
 		isArray(value)
 		? value as I

@@ -10,7 +10,7 @@ export function one_andand_or_</*@formatter:off*/
 >(/*@formatter:on*/
 	name_a:andand_key_T<In>[], or_fn:
 		andand_or_T<In, Out>
-) {
+):(obj:In)=>Out {
 	return (obj:In)=>andand_or<In, Out>(obj, name_a, or_fn)
 }
 export {

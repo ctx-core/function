@@ -7,7 +7,7 @@ export function call</*@formatter:off*/
 	O extends unknown = unknown
 >(/*@formatter:on*/
 	fn: call_fn_T<A, O>, ...arg_a: A
-) {
+):O {
 	return fn(...arg_a) as O
 }
 

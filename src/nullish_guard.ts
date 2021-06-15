@@ -1,7 +1,7 @@
 import type { nullish } from './nullish'
 export function nullish_guard<Val extends unknown = unknown>(
 	label:string, ...fns:(()=>(nullish|Val))[]
-) {
+):Val|nullish {
 	for (const fn of fns) {
 		const rv = fn()
 		if (rv != null)

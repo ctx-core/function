@@ -4,16 +4,13 @@
 export function tick(fn, timeout = 0) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            let rv;
             try {
-                if (fn)
-                    rv = fn();
+                resolve(fn());
             }
             catch (e) {
                 reject(e);
                 return;
             }
-            resolve(rv);
         }, timeout);
     });
 }

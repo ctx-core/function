@@ -1,1 +1,2 @@
-export declare function sleep(ms: number): Promise<unknown>;
+/// <reference types="node" />
+export declare function sleep(ms: number): Promise<number | NodeJS.Timeout>;
