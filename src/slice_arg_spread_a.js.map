@@ -1,1 +1,0 @@
-{"version":3,"file":"slice_arg_spread_a.js","sourceRoot":"","sources":["../slice_arg_spread_a.ts"],"names":[],"mappings":"AAAA;;GAEG;AACH,MAAM,UAAU,kBAAkB,CACjC,EAAuC,EAAE,SAAiB,EAAE,OAAe;IAE3E,OAAO,CAAC,GAAG,KAAQ,EAAC,EAAE,CAAA,EAAE,CAAC,KAAK,CAAC,KAAK,CAAC,SAAS,EAAE,OAAO,CAAO,CAAC,CAAA;AAChE,CAAC;AAKD,OAAO,EACN,kBAAkB,IAAI,YAAY,EAClC,kBAAkB,IAAI,cAAc,GACpC,CAAA"}
