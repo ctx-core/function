@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 19.1.3
+
+### Patch Changes
+
+- fix: npm run clean
+
 ## 19.1.2
 
 ### Patch Changes
