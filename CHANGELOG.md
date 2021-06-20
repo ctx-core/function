@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 19.1.4
+
+### Patch Changes
+
+- npm run prepare instead of npm run prepublishOnly
+
 ## 19.1.3
 
 ### Patch Changes
