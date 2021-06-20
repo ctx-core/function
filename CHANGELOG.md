@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 19.1.6
+
+### Patch Changes
+
+- fix: deploying \*.js files
+
 ## 19.1.5
 
 ### Patch Changes
