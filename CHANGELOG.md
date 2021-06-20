@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 19.1.5
+
+### Patch Changes
+
+- "prepare": "npm run clean && npm run compile"
+
 ## 19.1.4
 
 ### Patch Changes
