@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 19.1.7
+
+### Patch Changes
+
+- "prepublishOnly": "npm run clean && npm run compile"
+
 ## 19.1.6
 
 ### Patch Changes
