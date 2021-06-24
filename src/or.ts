@@ -11,4 +11,5 @@ export function or<Val extends unknown = unknown>(
 		const value = value_a[i]
 		if (value) return value as Val
 	}
+	return
 }

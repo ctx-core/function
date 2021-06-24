@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 19.1.8
+
+### Patch Changes
+
+- tsconfig.json: "lib": ["dom", "ESNext"]
+
 ## 19.1.7
 
 ### Patch Changes
