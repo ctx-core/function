@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 19.1.9
+
+### Patch Changes
+
+- timeout: error instantiated in arguments to preserve stacktrace
+
 ## 19.1.8
 
 ### Patch Changes
