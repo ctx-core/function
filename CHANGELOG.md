@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 19.1.10
+
+### Patch Changes
+
+- dist directory
+
 ## 19.1.9
 
 ### Patch Changes
