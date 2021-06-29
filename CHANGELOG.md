@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 19.1.11
+
+### Patch Changes
+
+- fix: tap\_: return type
+
 ## 19.1.10
 
 ### Patch Changes
