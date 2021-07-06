@@ -4,7 +4,7 @@ import type { tap_interceptor_T } from './tap'
  */
 export function tap_<Obj = unknown>(
 	fn:tap_interceptor_T<Obj>
-):tap_interceptor_T<Obj> {
+):(obj:Obj)=>Obj {
 	return (obj:Obj)=>{
 		fn(obj)
 		return obj

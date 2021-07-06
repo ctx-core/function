@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 19.1.13
+
+### Patch Changes
+
+- fix: tap\_: return value type: (obj:Obj)=>Obj
+
 ## 19.1.12
 
 ### Patch Changes
