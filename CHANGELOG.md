@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 19.2.0
+
+### Minor Changes
+
+- - wrap*aa*,wrap_aa_item_T,wrap_aa_T
+
 ## 19.1.13
 
 ### Patch Changes
@@ -490,7 +496,7 @@
 - \_wrap_a2
   wrap_a_item_T
   wrap_a2_item_type
-  wrap_a2_T
+  wrap_aa_T
   wrap_a_T2
   wrap_concat
 
@@ -518,7 +524,7 @@
 
 ### Minor Changes
 
-- Added maybe, wrap_a1_type, wrap_a2_T
+- Added maybe, wrap_a1_type, wrap_aa_T
 
 ### Patch Changes
 
