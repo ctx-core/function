@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.0.2
+
+### Patch Changes
+
+- fix: "type": "module"
+
 ## 20.0.1
 
 ### Patch Changes
