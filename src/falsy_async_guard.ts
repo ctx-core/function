@@ -1,4 +1,4 @@
-import type { falsy } from './falsy'
+import type { falsy } from './falsy.js'
 export async function falsy_async_guard<Val extends unknown = unknown>(
 	label:string, ...fns:(()=>Promise<Val|falsy>)[]
 ):Promise<Val|falsy> {

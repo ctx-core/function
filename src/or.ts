@@ -1,5 +1,5 @@
-import { wrap_a_ } from './wrap_a_'
-import type { wrap_a_T } from './wrap_a_T'
+import { wrap_a_ } from './wrap_a_.js'
+import type { wrap_a_T } from './wrap_a_T.js'
 /**
  * Returns first truthy or last item in `a_unwrap`.
  */

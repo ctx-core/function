@@ -1,4 +1,4 @@
-import { wrap_a_ } from './wrap_a_'
+import { wrap_a_ } from './wrap_a_.js'
 /**
  * Returns the boolean of the truthiness all values in `in_value_a`
  */

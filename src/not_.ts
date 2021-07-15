@@ -1,6 +1,6 @@
-import { not } from './not'
-import { wrap_concat } from './wrap_concat'
-import type { a_nowrap_T } from './a_nowrap_T'
+import { not } from './not.js'
+import { wrap_concat } from './wrap_concat.js'
+import type { a_nowrap_T } from './a_nowrap_T.js'
 /**
  * Returns function that calls [not](#not) with [wrap_concat](#wrap_concat)  of the arguments.
  */

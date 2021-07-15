@@ -1,6 +1,6 @@
-import { isPromise } from './isPromise'
-import type { promise_reject_T, promise_resolve_T } from './promise'
-import type { Timeout } from './Timeout'
+import { isPromise } from './isPromise.js'
+import type { promise_reject_T, promise_resolve_T } from './promise.js'
+import type { Timeout } from './Timeout.js'
 /**
  * Returns an async function, that, as long as it continues to be invoked, will not
  * be triggered. The function will be called after it stops being called for

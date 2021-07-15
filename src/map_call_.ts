@@ -1,6 +1,6 @@
-import { map_call } from './map_call'
-import { concat } from './concat'
-import type { map_fn_T } from './map_fn_T'
+import { map_call } from './map_call.js'
+import { concat } from './concat.js'
+import type { map_fn_T } from './map_fn_T.js'
 /**
  * Returns function that maps calls to fn_al ...fac_arg_a concat with ...fn_arg_a passed to function
  */

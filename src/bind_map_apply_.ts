@@ -1,5 +1,5 @@
-import { bind_apply_ } from './bind_apply_'
-import type { call_fn_T } from './call_fn_T'
+import { bind_apply_ } from './bind_apply_.js'
+import type { call_fn_T } from './call_fn_T.js'
 /**
  * Returns function returning map of calls to fn_a bound to self that applies arg_a with ...arg_a_
  */

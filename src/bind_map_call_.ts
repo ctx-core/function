@@ -1,4 +1,4 @@
-import type { call_fn_T } from './call_fn_T'
+import type { call_fn_T } from './call_fn_T.js'
 /**
  * Returns function bound to self that returns map of fn_al calls with ...fac_arg_a concat with ...fn_arg_a passed to function
  */

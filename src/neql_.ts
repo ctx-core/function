@@ -1,5 +1,5 @@
-import { neql } from './neql'
-import { wrap_concat } from './wrap_concat'
+import { neql } from './neql.js'
+import { wrap_concat } from './wrap_concat.js'
 /**
  * Returns function that returns `!==` operator to all values in `in_value_a`.
  * @param in_value_a

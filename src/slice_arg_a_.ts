@@ -1,5 +1,5 @@
-import type { a_nowrap_T } from './a_nowrap_T'
-import { wrap_a_ } from './wrap_a_'
+import type { a_nowrap_T } from './a_nowrap_T.js'
+import { wrap_a_ } from './wrap_a_.js'
 /**
  * Returns a function where the arguments to the wrapped function are sliced with begin_idx & end_idx.
  */

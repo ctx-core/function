@@ -1,4 +1,4 @@
-import { promise_timeout } from './promise_timeout'
+import { promise_timeout } from './promise_timeout.js'
 /**
  * @see [link: https://italonascimento.github.io/applying-a-timeout-to-your-promises/]
  * @see [link: http://disq.us/p/1k8w63m]

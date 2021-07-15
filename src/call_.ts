@@ -1,5 +1,5 @@
-import { call } from './call'
-import type { call_fn_T } from './call_fn_T'
+import { call } from './call.js'
+import type { call_fn_T } from './call_fn_T.js'
 /**
  * Returns function that calls ...in_arg_a concat with ...fn_arg_a passed to function
  */

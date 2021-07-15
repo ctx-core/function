@@ -1,5 +1,5 @@
-import { concat } from './concat'
-import type { map_fn_T } from './map_fn_T'
+import { concat } from './concat.js'
+import type { map_fn_T } from './map_fn_T.js'
 /**
  * Returns function that returns map of calls to fn_a applying in_arg_a with ...arg_a_
  */

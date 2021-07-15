@@ -1,4 +1,4 @@
-import { andand, andand_key_fn_T } from './andand'
+import { andand, andand_key_fn_T } from './andand.js'
 export function many_andand_<Val extends unknown = unknown>(
 	...name_a:(keyof Val|andand_key_fn_T<Val>)[]
 ):many_andand_T<Val> {

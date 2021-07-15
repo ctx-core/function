@@ -1,5 +1,5 @@
-import { notnot } from './notnot'
-import { wrap_concat } from './wrap_concat'
+import { notnot } from './notnot.js'
+import { wrap_concat } from './wrap_concat.js'
 /**
  * Returns function that calls [notnot](#notnot) with [wrap_concat](#wrap_concat) of the arguments.
  */

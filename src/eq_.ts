@@ -1,6 +1,6 @@
-import { eq } from './eq'
-import { wrap_concat } from './wrap_concat'
-import type { a_nowrap_T } from './a_nowrap_T'
+import { eq } from './eq.js'
+import { wrap_concat } from './wrap_concat.js'
+import type { a_nowrap_T } from './a_nowrap_T.js'
 /**
  * Returns function that returns `==` operator to all values in `in_value_aS`.
  */

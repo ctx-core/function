@@ -1,4 +1,4 @@
-import type { falsy } from './falsy'
+import type { falsy } from './falsy.js'
 /**
  * Returns a function than returns first truthy value from fn_a
  */

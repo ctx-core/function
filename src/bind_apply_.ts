@@ -1,5 +1,5 @@
-import type { bind_call_T } from './bind_call_T'
-import type { call_fn_T } from './call_fn_T'
+import type { bind_call_T } from './bind_call_T.js'
+import type { call_fn_T } from './call_fn_T.js'
 /**
  * Returns function bound to self that applies arg_a with ...arg_a_
  */

@@ -1,5 +1,5 @@
-import { neq } from './neq'
-import { wrap_concat } from './wrap_concat'
+import { neq } from './neq.js'
+import { wrap_concat } from './wrap_concat.js'
 /**
  * Return function that Returns `!=` operator to all values in `in_value_a`.
  */

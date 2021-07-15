@@ -1,4 +1,4 @@
-import { andand, andand_key_T } from './andand'
+import { andand, andand_key_T } from './andand.js'
 /**
  * Returns a function that calls `andand(obj, ...name_a)`
  */

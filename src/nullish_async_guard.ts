@@ -1,4 +1,4 @@
-import type { nullish } from './nullish'
+import type { nullish } from './nullish.js'
 export async function nullish_async_guard<Val extends unknown = unknown>(
 	label:string, ...fns:(()=>Promise<nullish|Val>)[]
 ):Promise<Val> {

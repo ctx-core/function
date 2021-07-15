@@ -1,4 +1,4 @@
-import type { call_fn_T } from './call_fn_T'
+import type { call_fn_T } from './call_fn_T.js'
 /**
  * Calls the fn with ...arg_a.
  */

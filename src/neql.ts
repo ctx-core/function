@@ -1,4 +1,4 @@
-import { wrap_a_ } from './wrap_a_'
+import { wrap_a_ } from './wrap_a_.js'
 /**
  * Returns `!==` operator to all values in `a_unwrap`.
  */

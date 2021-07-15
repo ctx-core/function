@@ -1,5 +1,5 @@
-import { andand_or, andand_or_T } from './andand_or'
-import type { andand_key_T } from './andand'
+import { andand_or, andand_or_T } from './andand_or.js'
+import type { andand_key_T } from './andand.js'
 export function many_andand_or_<Val extends unknown = unknown, Out extends unknown = unknown>(
 	name_a:andand_key_T<Val>[], or_:andand_or_T<Val, Out>
 ):many_andand_or_T<Val, Out> {

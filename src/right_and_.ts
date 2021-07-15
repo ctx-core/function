@@ -1,8 +1,8 @@
-import { and } from './and'
-import { wrap_a_ } from './wrap_a_'
-import { wrap_concat } from './wrap_concat'
-import type { a_nowrap_T } from './a_nowrap_T'
-import type { falsy } from './falsy'
+import { and } from './and.js'
+import { wrap_a_ } from './wrap_a_.js'
+import { wrap_concat } from './wrap_concat.js'
+import type { a_nowrap_T } from './a_nowrap_T.js'
+import type { falsy } from './falsy.js'
 /**
  * Returns function that returns the first falsy from `value` or `a_unwrap` or the last value of `a_unwrap`.
  */

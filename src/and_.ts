@@ -1,5 +1,5 @@
-import { wrap_a_ } from './wrap_a_'
-import type { falsy } from './falsy'
+import { wrap_a_ } from './wrap_a_.js'
+import type { falsy } from './falsy.js'
 /**
  * Returns the first falsy or last item function call or value in `in_value_a` .
  */

@@ -1,4 +1,4 @@
-import type { promise_reject_T, promise_resolve_T } from './promise'
+import type { promise_reject_T, promise_resolve_T } from './promise.js'
 export function promise_o_<T>():promise_o_T<T> {
   let resolve:promise_resolve_T<T>|null = null, reject:promise_reject_T|null = null
 	const promise = new Promise<T>((in_resolve, in_reject) => {

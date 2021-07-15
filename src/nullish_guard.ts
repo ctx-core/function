@@ -1,4 +1,4 @@
-import type { nullish } from './nullish'
+import type { nullish } from './nullish.js'
 export function nullish_guard<Val extends unknown = unknown>(
 	label:string, ...fns:(()=>(nullish|Val))[]
 ):Val|nullish {

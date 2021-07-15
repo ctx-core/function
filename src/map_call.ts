@@ -1,4 +1,4 @@
-import type { map_fn_T } from './map_fn_T'
+import type { map_fn_T } from './map_fn_T.js'
 /**
  * Returns the map of calls to fn_a with ...arg_a.
  */

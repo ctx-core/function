@@ -1,5 +1,5 @@
-import { wrap_a_ } from './wrap_a_'
-import type { a_nowrap_T } from './a_nowrap_T'
+import { wrap_a_ } from './wrap_a_.js'
+import type { a_nowrap_T } from './a_nowrap_T.js'
 /**
  * Returns not applied to the spread of `in_value_a`
  */

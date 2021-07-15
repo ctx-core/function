@@ -1,5 +1,5 @@
-import type { wrap_a_T } from './wrap_a_T'
-import type { a_nowrap_T } from './a_nowrap_T'
+import type { wrap_a_T } from './wrap_a_T.js'
+import type { a_nowrap_T } from './a_nowrap_T.js'
 const { isArray } = Array
 /**
  * Returns `value` if array & `[value]` otherwise

@@ -1,7 +1,7 @@
-import { or } from './or'
-import { wrap_a_ } from './wrap_a_'
-import { concat } from './concat'
-import type { a_nowrap_T } from './a_nowrap_T'
+import { or } from './or.js'
+import { wrap_a_ } from './wrap_a_.js'
+import { concat } from './concat.js'
+import type { a_nowrap_T } from './a_nowrap_T.js'
 /**
  * Returns function that returns first truthy or last item in `a_unwrap`.
  */
