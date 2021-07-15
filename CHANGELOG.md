@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.0.0
+
+### Major Changes
+
+- "type": "module": module npm type
+
 ## 19.2.0
 
 ### Minor Changes
