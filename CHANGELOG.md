@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.0.7
+
+### Patch Changes
+
+- "main": "./dist/index.cjs"
+
 ## 20.0.6
 
 ### Patch Changes
