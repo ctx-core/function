@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.0.12
+
+### Patch Changes
+
+- fix: "exports": "./package.json": "./package.json"
+
 ## 20.0.11
 
 ### Patch Changes
