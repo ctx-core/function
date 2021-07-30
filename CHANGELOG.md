@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.0.13
+
+### Patch Changes
+
+- fix: iife: argument: fn:(...fn_arg_a:any[])=>T
+
 ## 20.0.12
 
 ### Patch Changes
