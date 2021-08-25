@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.1.0
+
+### Minor Changes
+
+- feat: waitfor_val
+
 ## 20.0.13
 
 ### Patch Changes
