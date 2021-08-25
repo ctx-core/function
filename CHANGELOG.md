@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.1.1
+
+### Patch Changes
+
+- waitfor,waitfor_val: + period argument
+
 ## 20.1.0
 
 ### Minor Changes
