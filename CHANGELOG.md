@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.1.4
+
+### Patch Changes
+
+- typescript: ^4.4.2 -> ^4.4.3
+
 ## 20.1.3
 
 ### Patch Changes
