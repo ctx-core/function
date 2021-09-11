@@ -8,7 +8,7 @@ import type { Timeout } from './Timeout.js'
  * leading edge, instead of the trailing.
  * @see {link:https://davidwalsh.name/javascript-debounce-function}
  */
-export function debounce<F extends Function, Out extends unknown = unknown>(
+export function debounce<Out extends unknown = unknown, F extends Function = Function>(
 	func:F, wait:number, immediate?:boolean
 ):debounce_fn_T<Out> {
 	let timeout:Timeout|number|null, promise:Promise<Out>|null, resolve:promise_resolve_T<Out>, reject:promise_reject_T

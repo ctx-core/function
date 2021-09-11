@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.2.1
+
+### Patch Changes
+
+- fix: debounce: order of generics: Out then Func
+
 ## 20.2.0
 
 ### Minor Changes
