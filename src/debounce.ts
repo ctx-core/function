@@ -8,51 +8,45 @@ import type { Timeout } from './Timeout.js'
  * leading edge, instead of the trailing.
  * @see {link:https://davidwalsh.name/javascript-debounce-function}
  */
-export function debounce<F extends Function>(
+export function debounce<F extends Function, Out extends unknown = unknown>(
 	func:F, wait:number, immediate?:boolean
-):debounce_fn_T {
-	let timeout:Timeout|number|null
-	let promise:Promise<any>|null, resolve:promise_resolve_T<any>, reject:promise_reject_T
-	return async function (this:unknown, ...arg_a) {
-		if (!promise) promise = new Promise((in_resolve, in_reject)=>{
+):debounce_fn_T<Out> {
+	let timeout:Timeout|number|null, promise:Promise<Out>|null, resolve:promise_resolve_T<Out>, reject:promise_reject_T
+	return async function (this:unknown, ...arg_a):Promise<Out> {
+		if (!promise) promise = new Promise<Out>((in_resolve, in_reject)=>{
 			resolve = in_resolve
 			reject = in_reject
 		})
 		const apply_this = this
-		let rv:any, error:any
 		const later = async ()=>{
 			timeout = null
 			promise = null
 			if (!immediate) {
-				try {
-					rv = func.apply(apply_this, arg_a)
-				} catch (e) {
-					error = e
-				}
-			}
-			if (isPromise(rv)) {
-				await rv
-			}
-			if (error) {
-				reject(error)
-			} else {
-				resolve(null)
+				await invoke()
 			}
 		}
 		const callNow = immediate && !timeout
 		clearTimeout(timeout as Timeout)
 		timeout = setTimeout(later, wait)
 		if (callNow) {
-			try {
-				rv = func.apply(apply_this, arg_a)
-			} catch (e) {
-				error = e
-			}
+			await invoke()
 		}
 		return promise
+		async function invoke() {
+			try {
+				const in_rv = func.apply(apply_this, arg_a)
+				resolve(
+					isPromise(in_rv)
+					? (await (in_rv as Promise<Out>))
+					: (in_rv as Out)
+				)
+			} catch (e) {
+				reject(e)
+			}
+		}
 	}
 }
-export type debounce_fn_T = (this:unknown)=>Promise<void>
+export type debounce_fn_T<Out extends unknown = unknown> = (this:unknown)=>Promise<Out>
 export type debounce_T<F extends Function> =
 	(func:F, wait:number, immediate?:boolean)=>
 		debounce_fn_T

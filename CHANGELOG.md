@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.2.0
+
+### Minor Changes
+
+- feat: debounce: return value
+
 ## 20.1.4
 
 ### Patch Changes
