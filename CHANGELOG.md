@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.2.3
+
+### Patch Changes
+
+- compile using swc
+
 ## 20.2.2
 
 ### Patch Changes
