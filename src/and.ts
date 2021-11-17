@@ -1,6 +1,6 @@
-import { wrap_a_ } from './wrap_a_.js'
 import type { a_nowrap_T } from './a_nowrap_T.js'
 import type { falsy } from './falsy.js'
+import { wrap_a_ } from './wrap_a_.js'
 /**
  * Returns the first falsy or last item in `a_nowrap`.
  */

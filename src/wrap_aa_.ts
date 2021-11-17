@@ -1,6 +1,6 @@
+import type { a_nowrap_T } from './a_nowrap_T.js'
 import { wrap_a_ } from './wrap_a_.js'
 import type { wrap_aa_T } from './wrap_aa_T.js'
-import type { a_nowrap_T } from './a_nowrap_T.js'
 /**
  * Returns `wrap_aa_T` wrapped as a 2-dimensional array
  */

@@ -1,5 +1,5 @@
-import { andandfn, andandfn_T } from './andandfn.js'
 import type { andand_key_T } from './andand.js'
+import { andandfn, andandfn_T } from './andandfn.js'
 /**
  * Returns a function that calls `andand_(obj, ...name_a)`
  */

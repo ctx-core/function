@@ -1,6 +1,6 @@
-import { andand_or } from './andand_or.js'
-import type { andand_or_T } from './andand_or.js'
 import type { andand_key_T } from './andand.js'
+import type { andand_or_T } from './andand_or.js'
+import { andand_or } from './andand_or.js'
 /**
  * Returns function that calls `andand_or(obj, name_a, or_fn)`
  */
