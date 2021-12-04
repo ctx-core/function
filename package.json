@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/function",
-	"version": "20.2.8",
+	"version": "20.2.9",
 	"description": "ctx-core function",
 	"keywords": [
 		"ctx-core",
@@ -36,7 +36,7 @@
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.52",
-		"@swc/core": "^1.2.116",
+		"@swc/core": "^1.2.117",
 		"typescript": "next"
 	},
 	"publishConfig": {
