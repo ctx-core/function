@@ -14,12 +14,6 @@ export function andand<Val extends unknown = unknown, Out extends unknown = unkn
 				: out_value[segment]
 			: null
 		) as Out|null
-		// const in_value = (out_value && out_value[segment])
-		// out_value =
-		// 	in_value
-		// 	|| (typeof segment === 'function'
-		// 			? segment(out_value)
-		// 			: in_value)
 	}
 	return out_value as Out|null
 }

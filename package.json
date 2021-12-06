@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/function",
-	"version": "20.2.11",
+	"version": "20.2.12",
 	"description": "ctx-core function",
 	"keywords": [
 		"ctx-core",
@@ -16,19 +16,18 @@
 	},
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
+	"type": "module",
+	"types": "./src/index.ts",
 	"exports": {
 		".": {
-			"require": "./dist/index.js",
-			"import": "./dist/index.mjs"
+			"import": "./dist/index.js"
 		},
 		"./package.json": "./package.json"
 	},
-	"types": "./src/index.ts",
 	"scripts": {
 		"build": "npm run compile",
 		"clean": "rm -rf dist",
-		"compile": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc && npm run copy-mjs",
-		"copy-mjs": "cp src/index.mjs dist/index.mjs",
+		"compile": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
 		"exec": "$@",
 		"prepublishOnly": "npm run clean && npm run build"
 	},

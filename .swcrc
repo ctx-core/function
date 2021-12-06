@@ -6,8 +6,5 @@
 			"tsx": true,
 			"dynamicImport": true
 		}
-	},
-	"module": {
-		"type": "commonjs"
 	}
 }
