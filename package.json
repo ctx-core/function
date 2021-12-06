@@ -25,10 +25,10 @@
 	},
 	"types": "./src/index.ts",
 	"scripts": {
-		"build": "npm run compile && npm run copy-mjs",
+		"build": "npm run compile",
 		"clean": "rm -rf dist",
-		"compile": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
-		"copy-mjs": "cd dist && echo \"export * from './index.js'\" > index.mjs",
+		"compile": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc && npm run copy-mjs",
+		"copy-mjs": "cp src/index.mjs dist/index.mjs",
 		"exec": "$@",
 		"prepublishOnly": "npm run clean && npm run build"
 	},
@@ -40,6 +40,5 @@
 	"publishConfig": {
 		"access": "public",
 		"cache": "~/.npm"
-	},
-	"type": "module"
+	}
 }
