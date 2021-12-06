@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.2.11
+
+### Patch Changes
+
+- fix: cjs export
+
 ## 20.2.10
 
 ### Patch Changes

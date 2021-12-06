@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/function",
-	"version": "20.2.10",
+	"version": "20.2.11",
 	"description": "ctx-core function",
 	"keywords": [
 		"ctx-core",
@@ -16,21 +16,19 @@
 	},
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
-	"type": "module",
-	"main": "./dist/index.js",
-	"module": "./dist/index.js",
-	"types": "./src/index.ts",
 	"exports": {
 		".": {
-			"require": "./dist/index.cjs",
-			"import": "./dist/index.js"
+			"require": "./dist/index.js",
+			"import": "./dist/index.mjs"
 		},
 		"./package.json": "./package.json"
 	},
+	"types": "./src/index.ts",
 	"scripts": {
-		"build": "npm run compile",
+		"build": "npm run compile && npm run copy-mjs",
 		"clean": "rm -rf dist",
 		"compile": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
+		"copy-mjs": "cd dist && echo \"export * from './index.js'\" > index.mjs",
 		"exec": "$@",
 		"prepublishOnly": "npm run clean && npm run build"
 	},
@@ -42,5 +40,6 @@
 	"publishConfig": {
 		"access": "public",
 		"cache": "~/.npm"
-	}
+	},
+	"type": "module"
 }
