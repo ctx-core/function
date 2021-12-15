@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.2.15
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+
 ## 20.2.14
 
 ### Patch Changes
