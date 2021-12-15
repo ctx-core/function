@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.2.16
+
+### Patch Changes
+
+- \*.d.ts export
+
 ## 20.2.15
 
 ### Patch Changes
