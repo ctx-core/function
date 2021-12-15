@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.2.13
+
+### Patch Changes
+
+- package.json: svelte: ./dist/index.js
+
 ## 20.2.12
 
 ### Patch Changes
