@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.2.20
+
+### Patch Changes
+
+- fix: error TS6059: \* is not under 'rootDir': package.json: types: ./dist/index.d.ts
+
 ## 20.2.19
 
 ### Patch Changes
