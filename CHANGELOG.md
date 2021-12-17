@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.2.18
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+
 ## 20.2.17
 
 ### Patch Changes
