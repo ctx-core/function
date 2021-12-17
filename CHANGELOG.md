@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.2.17
+
+### Patch Changes
+
+- fix: build
+
 ## 20.2.16
 
 ### Patch Changes
