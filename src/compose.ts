@@ -7,8 +7,8 @@ export function compose<O extends unknown = unknown>(
 ):compose_fn_T<O> {
 	return fn_a.reduceRight(
 		(prev_fn:compose_fn_T, next_fn:compose_fn_T)=>
-			((...arg_a:[])=>next_fn(prev_fn(...arg_a)) as compose_fn_T),
+			((...arg_a:any[])=>next_fn(prev_fn(...arg_a)) as compose_fn_T),
 		((value:unknown)=>value) as compose_fn_T
 	) as compose_fn_T<O>
 }
-export type compose_fn_T<O extends unknown = unknown> = (...[])=>O
+export type compose_fn_T<O extends unknown = unknown> = (...fn_a:any[])=>O
