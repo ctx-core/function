@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.2.21
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+
 ## 20.2.20
 
 ### Patch Changes
