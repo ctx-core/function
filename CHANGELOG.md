@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.2.23
+
+### Patch Changes
+
+- version bump
+
 ## 20.2.22
 
 ### Patch Changes
