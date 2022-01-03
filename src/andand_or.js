@@ -6,4 +6,3 @@ import { andand } from './andand.js'
 	return val || or_fn(val, obj)
 }
 export { andand_or as andand__or }
-//# sourceMappingURL=andand_or.js.map

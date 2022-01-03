@@ -8,4 +8,3 @@
 
 }
 export { bind_apply_ as _bind_apply, bind_apply_ as _apply__bind, }
-//# sourceMappingURL=bind_apply_.js.map

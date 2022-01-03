@@ -3,4 +3,3 @@
  */ export function ifelse(conditional, if_fn, else_fn) {
 	return conditional ? if_fn(conditional) : else_fn(conditional)
 }
-//# sourceMappingURL=ifelse.js.map

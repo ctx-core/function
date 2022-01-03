@@ -6,4 +6,3 @@ import { promise_timeout } from './promise_timeout.js'
 	return await promise_timeout(promise, ms)
 }
 export { timeout_promise as _timeout_promise }
-//# sourceMappingURL=timeout_promise.js.map

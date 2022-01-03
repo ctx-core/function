@@ -6,4 +6,3 @@
 export function maybe_concat(a, ...rest_a) {
 	return (a || []).concat(...rest_a)
 }
-//# sourceMappingURL=concat.js.map

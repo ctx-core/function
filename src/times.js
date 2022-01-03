@@ -7,4 +7,3 @@
 	}
 	return a
 }
-//# sourceMappingURL=times.js.map

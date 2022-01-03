@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.2.22
+
+### Patch Changes
+
+- fix: remove incorrect sourcemap annotation
+
 ## 20.2.21
 
 ### Patch Changes

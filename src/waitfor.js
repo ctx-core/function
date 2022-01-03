@@ -8,4 +8,3 @@ export async function waitfor(fn, timeout, period = 0) {
 		}
 	}, timeout)
 }
-//# sourceMappingURL=waitfor.js.map

@@ -17,4 +17,3 @@ export function stacktrace_line_pos_() {
 export function stacktrace_filename_line_(stack_line = stacktrace_()[3]) {
 	return stack_line.slice(stack_line.lastIndexOf('/'), stack_line.lastIndexOf(')')) || stack_line.slice(stack_line.lastIndexOf('('), stack_line.lastIndexOf(')'))
 }
-//# sourceMappingURL=stacktrace.js.map

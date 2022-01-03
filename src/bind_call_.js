@@ -8,4 +8,3 @@
 
 }
 export { bind_call_ as _bind_call, bind_call_ as _call__bind }
-//# sourceMappingURL=bind_call_.js.map

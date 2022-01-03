@@ -6,4 +6,3 @@ export function falsy_guard(label, ...fns) {
 	throw `${label} cannot be falsy`
 }
 export { falsy_guard as falsish_guard }
-//# sourceMappingURL=falsy_guard.js.map

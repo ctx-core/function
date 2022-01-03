@@ -10,4 +10,3 @@ export function promise_o_() {
 		reject: reject
 	}
 }
-//# sourceMappingURL=promise_o_.js.map

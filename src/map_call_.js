@@ -7,4 +7,3 @@ import { map_call } from './map_call.js'
 
 }
 export { map_call_ as map_a_call_fn, map_call_ as map_a1_call_fn, map_call_ as _map_call, map_call_ as _call__map, }
-//# sourceMappingURL=map_call_.js.map

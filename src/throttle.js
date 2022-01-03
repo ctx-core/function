@@ -19,4 +19,3 @@
 		}
 	}
 }
-//# sourceMappingURL=throttle.js.map

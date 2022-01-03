@@ -5,4 +5,3 @@ import { slice_arg_spread_a } from './slice_arg_spread_a.js'
 	return slice_arg_spread_a(fn, 0, 1)
 }
 export { arg_i0_a as arg__0__ }
-//# sourceMappingURL=arg_i0_a.js.map

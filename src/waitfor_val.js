@@ -9,4 +9,3 @@ export async function waitfor_val(fn, condition_fn, timeout, period = 0) {
 		}
 	}, timeout)
 }
-//# sourceMappingURL=waitfor_val.js.map

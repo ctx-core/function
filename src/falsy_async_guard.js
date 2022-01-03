@@ -6,4 +6,3 @@ export async function falsy_async_guard(label, ...fns) {
 	throw `${label} cannot be falsy`
 }
 export { falsy_async_guard as falsish_async_guard }
-//# sourceMappingURL=falsy_async_guard.js.map

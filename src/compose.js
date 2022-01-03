@@ -6,4 +6,3 @@
 		, (value)=>value
 	)
 }
-//# sourceMappingURL=compose.js.map

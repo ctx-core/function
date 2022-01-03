@@ -9,4 +9,3 @@ import { wrap_a_ } from './wrap_a_.js'
 	}
 	return true
 }
-//# sourceMappingURL=not.js.map

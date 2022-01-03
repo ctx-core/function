@@ -9,4 +9,3 @@
 	return
 }
 export { or_property as or__property }
-//# sourceMappingURL=or_property.js.map

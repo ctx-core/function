@@ -12,4 +12,3 @@
 		}, timeout)
 	})
 }
-//# sourceMappingURL=tick.js.map

@@ -12,4 +12,3 @@ export async function promise_timeout(promise, ms, error = new Error(`Timed out 
 		return result
 	})
 }
-//# sourceMappingURL=promise_timeout.js.map

@@ -15,4 +15,3 @@ function getNanoSeconds() {
 	const hr = process.hrtime()
 	return hr[0] * 1000000000 + hr[1]
 }
-//# sourceMappingURL=performance_now.js.map

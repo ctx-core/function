@@ -10,4 +10,3 @@ import { wrap_a_ } from './wrap_a_.js'
 	}
 	return true
 }
-//# sourceMappingURL=neq.js.map

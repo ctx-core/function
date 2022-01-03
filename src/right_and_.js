@@ -8,4 +8,3 @@ import { wrap_concat } from './wrap_concat.js'
 
 }
 export { right_and_ as _and, right_and_ as _and__right }
-//# sourceMappingURL=right_and_.js.map

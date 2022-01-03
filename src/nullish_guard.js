@@ -6,4 +6,3 @@ export function nullish_guard(label, ...fns) {
 	throw `${label} cannot be nullish`
 }
 export { nullish_guard as nullsy_guard }
-//# sourceMappingURL=nullish_guard.js.map

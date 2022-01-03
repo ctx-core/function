@@ -7,4 +7,3 @@
 	interceptor(obj)
 	return obj
 }
-//# sourceMappingURL=tap.js.map

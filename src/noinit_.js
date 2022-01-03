@@ -9,4 +9,3 @@ export function noinit_(fn, times = 1) {
 	}
 }
 export { noinit_ as _noinit, }
-//# sourceMappingURL=noinit_.js.map
