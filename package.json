@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/function",
-	"version": "20.2.23",
+	"version": "20.2.24",
 	"description": "ctx-core function",
 	"keywords": [
 		"ctx-core",
@@ -39,7 +39,7 @@
 		"check-dts": "^0.6.6",
 		"tsm": "^2.2.1",
 		"typescript": "next",
-		"uvu": "^0.5.2"
+		"uvu": "^0.5.3"
 	},
 	"publishConfig": {
 		"access": "public",

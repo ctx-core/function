@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.2.24
+
+### Patch Changes
+
+- uvu: ^0.5.2 -> ^0.5.3
+
 ## 20.2.23
 
 ### Patch Changes
