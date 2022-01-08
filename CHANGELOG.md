@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.2.25
+
+### Patch Changes
+
+- sideEffects = false
+
 ## 20.2.24
 
 ### Patch Changes
