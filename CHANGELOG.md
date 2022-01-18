@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.3.0
+
+### Minor Changes
+
+- a_item_T,a_nowrap_T,bind_call_T,call_fn_T,wrap_a_item_T,wrap_a_T,wrap_a_T2,warp_aa_T,wrap_aa_item_T: immutable support: readonly argument types
+
 ## 20.2.25
 
 ### Patch Changes
