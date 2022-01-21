@@ -1,7 +1,8 @@
 const { isArray } = Array
 /**
  * Returns `value` if array & `[value]` otherwise
- */ export function wrap_a_(value) {
+ */
+export function wrap_a_(value) {
 	return isArray(value) ? value : [
 		value
 	]

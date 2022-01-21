@@ -1,7 +1,8 @@
 import { wrap_a_ } from './wrap_a_.js'
 /**
  * Returns `wrap_aa_T` wrapped as a 2-dimensional array
- */ export function wrap_aa_(aa_nowrap) {
+ */
+export function wrap_aa_(aa_nowrap) {
 	return wrap_a_(aa_nowrap).map((a_nowrap)=>wrap_a_(a_nowrap)
 	)
 }

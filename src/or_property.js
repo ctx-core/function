@@ -1,6 +1,7 @@
 /**
  * Returns first obj property that is truthy
- */ export function or_property(obj, name_a) {
+ */
+export function or_property(obj, name_a) {
 	for (let i = 0; i < name_a.length; i++) {
 		const name = name_a[i]
 		const value = obj[name]

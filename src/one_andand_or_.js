@@ -1,9 +1,9 @@
 import { andand_or } from './andand_or.js'
 /**
  * Returns function that calls `andand_or(obj, name_a, or_fn)`
- */ export function one_andand_or_(/*@formatter:on*/ name_a, or_fn) {
+ */
+export function one_andand_or_(/*@formatter:on*/ name_a, or_fn) {
 	return (obj)=>andand_or(obj, name_a, or_fn)
-
 }
 export {
 	one_andand_or_ as andand_or_,

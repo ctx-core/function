@@ -1,6 +1,7 @@
 /**
  * Returns a function than returns first truthy value from fn_a
- */ export function call_or_fn_(fn_a) {
+ */
+export function call_or_fn_(fn_a) {
 	return (value)=>{
 		let out_value = null
 		for (let i = 0; i < fn_a.length; i += 1) {

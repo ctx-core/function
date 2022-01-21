@@ -1,6 +1,7 @@
 /**
  * Applies `&&` to a chain of properties from `obj`.
- */ export function andand(obj, ...name_a) {
+ */
+export function andand(obj, ...name_a) {
 	let out_value = obj
 	for (let i = 0; i < name_a.length; i++) {
 		const segment = name_a[i]

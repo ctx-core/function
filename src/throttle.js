@@ -1,6 +1,7 @@
 /**
  * @see {link:https://remysharp.com/2010/07/21/throttling-function-calls}
- */ export function throttle(fn, threshold = 250, scope) {
+ */
+export function throttle(fn, threshold = 250, scope) {
 	threshold || (threshold = 250)
 	let last, deferTimer
 	return function () {

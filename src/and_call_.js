@@ -1,6 +1,7 @@
 /**
  * Returns a function than returns the called fn_a(value) chained with ands
- */ export function and_call_(fn_a) {
+ */
+export function and_call_(fn_a) {
 	return (in_value)=>{
 		let out_value = null
 		for (const fn of fn_a) {

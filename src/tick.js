@@ -1,6 +1,7 @@
 /**
  * Calls setTimeout
- */ export function tick(fn, timeout = 0) {
+ */
+export function tick(fn, timeout = 0) {
 	return new Promise((resolve, reject)=>{
 		setTimeout(()=>{
 			try {

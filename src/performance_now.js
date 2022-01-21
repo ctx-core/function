@@ -10,7 +10,6 @@ export const performance_now = has_performance ? ()=>performance.now()
 		return (getNanoSeconds() - node_load_time) / 1000000
 	} : has_Date_now ? ()=>Date.now() - load_time
 									 : ()=>new Date().getTime() - load_time
-
 function getNanoSeconds() {
 	const hr = process.hrtime()
 	return hr[0] * 1000000000 + hr[1]

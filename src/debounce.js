@@ -5,7 +5,8 @@ import { isPromise } from './isPromise.js'
  * N milliseconds. If `immediate` is passed, trigger the function on the
  * leading edge, instead of the trailing.
  * @see {link:https://davidwalsh.name/javascript-debounce-function}
- */ export function debounce(func, wait, immediate) {
+ */
+export function debounce(func, wait, immediate) {
 	let timeout, promise, resolve, reject
 	return async function (...arg_a) {
 		if (!promise) promise = new Promise((in_resolve, in_reject)=>{

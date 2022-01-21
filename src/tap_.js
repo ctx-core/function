@@ -1,6 +1,7 @@
 /**
  * Returns function that calls tap with obj.
- */ export function tap_(fn) {
+ */
+export function tap_(fn) {
 	return (obj)=>{
 		fn(obj)
 		return obj

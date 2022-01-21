@@ -1,6 +1,7 @@
 /**
  * Applies `&&` to a chain of property name or function with return value from `obj`.
- */ export function andandfn(obj, ...name_a) {
+ */
+export function andandfn(obj, ...name_a) {
 	let out_value = obj
 	for (let i = 0; i < name_a.length; i++) {
 		if (!out_value) break
