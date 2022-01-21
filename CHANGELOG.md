@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.4.0
+
+### Minor Changes
+
+- feat: fn_pipe
+
 ## 20.3.0
 
 ### Minor Changes
