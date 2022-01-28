@@ -6,7 +6,7 @@ export async function promise_timeout(promise, ms, error = new Error(`Timed out 
 	return Promise.race([
 		typeof promise === 'function' ? promise() : promise,
 		timeout
-	]).then((result)=>{
+	]).then(result=>{
 		clearTimeout(id)
 		return result
 	})
