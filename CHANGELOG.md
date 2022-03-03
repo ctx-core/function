@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.5.0
+
+### Minor Changes
+
+- feat: + every*arg*: If the function args pass every_fn condition, the return value is the function; else return or value
+
 ## 20.4.0
 
 ### Minor Changes
