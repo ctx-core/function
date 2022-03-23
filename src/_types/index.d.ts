@@ -18,6 +18,7 @@ export declare type nullsy = nullish;
 export declare type promise_resolve_T<T> = (value:T|PromiseLike<T>)=>void;
 export declare type promise_reject_T = (reason?:any)=>void;
 export declare type Timeout = ReturnType<typeof setTimeout>;
+export declare type valueof<T> = T[keyof T];
 export declare type wrap_a_item_T<I extends unknown = unknown> = wrap_a_T<I> extends readonly (infer O)[][] ? O : never;
 export declare type wrap_a1_item_type = wrap_a_item_T;
 export declare type wrap_a_T<I extends unknown = unknown> = I extends readonly unknown[] ? I : readonly I[];

@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.6.0
+
+### Minor Changes
+
+- feat: + valueof type
+
 ## 20.5.0
 
 ### Minor Changes
