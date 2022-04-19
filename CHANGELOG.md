@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.7.0
+
+### Minor Changes
+
+- debounce<Out extends unknown = unknown, Args extends any[] = []>
+
 ## 20.6.1
 
 ### Patch Changes
