@@ -1,5 +1,17 @@
 # @ctx-core/function
 
+## 20.7.2
+
+### Patch Changes
+
+- version bump
+
+## 20.7.1
+
+### Patch Changes
+
+- version bump
+
 ## 20.7.0
 
 ### Minor Changes
