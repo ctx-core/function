@@ -4,6 +4,13 @@
 
 ### Patch Changes
 
+- feat: eql*a*
+- feat: debounce_mapreduce
+
+## 20.7.2
+
+### Patch Changes
+
 - version bump
 
 ## 20.7.1
