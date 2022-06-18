@@ -1,4 +1,4 @@
-import { concat } from './concat.js'
+import { concat } from './concat/index.js'
 import { map_call } from './map_call.js'
 /**
  * Returns function that maps calls to fn_al ...fac_arg_a concat with ...fn_arg_a passed to function

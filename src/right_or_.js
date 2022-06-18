@@ -1,6 +1,6 @@
-import { concat } from './concat.js'
+import { concat } from './concat/index.js'
 import { or } from './or.js'
-import { wrap_a_ } from './wrap_a_.js'
+import { wrap_a_ } from './wrap_a_/index.js'
 /**
  * Returns function that returns first truthy or last item in `a_unwrap`.
  */

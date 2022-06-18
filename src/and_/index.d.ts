@@ -1,4 +1,4 @@
-import type { falsy } from './_types'
+import type { falsy } from '../_types'
 /**
  * Returns the first falsy or last item function call or value in `in_value_a` .
  */

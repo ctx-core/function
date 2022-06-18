@@ -1,5 +1,5 @@
-import { wrap_a_ } from './wrap_a_.js'
-import { wrap_concat } from './wrap_concat.js'
+import { wrap_a_ } from './wrap_a_/index.js'
+import { wrap_concat } from './wrap_concat/index.js'
 /**
  * Returns first truthy or last item call or value in `a_unwrap`.
  */

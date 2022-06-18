@@ -1,4 +1,4 @@
-import type { a_nowrap_T, wrap_aa_T } from './_types'
+import type { a_nowrap_T, wrap_aa_T } from '../_types'
 /**
  * Returns `wrap_aa_T` wrapped as a 2-dimensional array
  */

@@ -1,4 +1,4 @@
-import { andand } from './andand.js'
+import { andand } from './andand/index.js'
 /**
  * Returns a function that calls `andand(obj, ...name_a)`
  */

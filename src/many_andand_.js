@@ -1,4 +1,4 @@
-import { andand } from './andand.js'
+import { andand } from './andand/index.js'
 export function many_andand_(...name_a) {
 	return (obj, ...arg_a)=>andand(obj, ...arg_a, ...name_a)
 }

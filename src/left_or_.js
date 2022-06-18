@@ -1,5 +1,5 @@
 import { or } from './or.js'
-import { wrap_concat } from './wrap_concat.js'
+import { wrap_concat } from './wrap_concat/index.js'
 /**
  * Returns function that returns first truthy item in `a_unwrap` or value.
  */

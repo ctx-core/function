@@ -1,5 +1,5 @@
 import { and } from '../and/index.js'
-import { wrap_concat } from '../wrap_concat.js'
+import { wrap_concat } from '../wrap_concat/index.js'
 /**
  * Returns function that returns the first falsy in `a_unwrap` or `value`.
  */

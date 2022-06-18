@@ -1,4 +1,4 @@
-import { concat } from './concat.js'
+import { concat } from './concat/index.js'
 /**
  * Returns function that returns map of calls to fn_a applying in_arg_a with ...arg_a_
  */

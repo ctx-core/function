@@ -1,4 +1,4 @@
-import { wrap_a_ } from './wrap_a_.js'
+import { wrap_a_ } from '../wrap_a_/index.js'
 /**
  * Returns `wrap_aa_T` wrapped as a 2-dimensional array
  */

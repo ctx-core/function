@@ -1,4 +1,4 @@
-import type { a_nowrap_T, wrap_a_T, wrap_a_T2 } from './_types'
+import type { a_nowrap_T, wrap_a_T, wrap_a_T2 } from '../_types'
 /**
  * [wrap](#wrap) `a_unwrap` & [concat](#concat) `rest_a`
  */

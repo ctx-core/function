@@ -1,6 +1,6 @@
-import { concat } from './concat.js'
-import { wrap_a_ } from './wrap_a_.js'
-import { wrap_aa_ } from './wrap_aa_.js'
+import { concat } from '../concat/index.js'
+import { wrap_a_ } from '../wrap_a_/index.js'
+import { wrap_aa_ } from '../wrap_aa_/index.js'
 /**
  * [wrap](#wrap) `a_unwrap` & [concat](#concat) `rest_a`
  */

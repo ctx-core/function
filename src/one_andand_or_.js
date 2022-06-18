@@ -1,8 +1,8 @@
-import { andand_or } from './andand_or.js'
+import { andand_or } from './andand_or/index.js'
 /**
  * Returns function that calls `andand_or(obj, name_a, or_fn)`
  */
-export function one_andand_or_(/*@formatter:on*/ name_a, or_fn) {
+export function one_andand_or_(name_a, or_fn) {
 	return (obj)=>andand_or(obj, name_a, or_fn)
 }
 export {

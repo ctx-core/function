@@ -1,5 +1,5 @@
-import { and_ } from './and_.js'
-import { wrap_concat } from './wrap_concat.js'
+import { and_ } from '../and_/index.js'
+import { wrap_concat } from '../wrap_concat/index.js'
 /**
  * Returns function that returns the first falsy or last item function call or value in `in_value_a` .
  */

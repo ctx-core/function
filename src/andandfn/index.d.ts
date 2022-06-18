@@ -1,4 +1,4 @@
-import type { andand_key_T } from './andand.js'
+import type { andand_key_T } from '../andand'
 /**
  * Applies `&&` to a chain of property name or function with return value from `obj`.
  */

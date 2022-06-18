@@ -1,4 +1,4 @@
-import { wrap_a_ } from './wrap_a_.js'
+import { wrap_a_ } from './wrap_a_/index.js'
 /**
  * Returns first truthy or last item in `a_unwrap`.
  */

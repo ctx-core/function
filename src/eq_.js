@@ -1,5 +1,5 @@
 import { eq } from './eq.js'
-import { wrap_concat } from './wrap_concat.js'
+import { wrap_concat } from './wrap_concat/index.js'
 /**
  * Returns function that returns `==` operator to all values in `in_value_aS`.
  */
