@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.8.1
+
+### Patch Changes
+
+- NumericUnit: ∋ TagType from @ctx-core/types
+
 ## 20.7.2
 
 ### Patch Changes
