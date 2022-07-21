@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.9.0
+
+### Minor Changes
+
+- src: extract directories
+
 ## 20.8.1
 
 ### Patch Changes
