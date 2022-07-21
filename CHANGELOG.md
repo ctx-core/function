@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.9.1
+
+### Patch Changes
+
+- fn_pipe: better pipe function type inference
+
 ## 20.9.0
 
 ### Minor Changes
