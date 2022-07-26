@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 20.10.0
+
+### Minor Changes
+
+- export fn*pipe as \_p*
+
 ## 20.9.1
 
 ### Patch Changes
