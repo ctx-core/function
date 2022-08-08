@@ -1,5 +1,13 @@
 # @ctx-core/function
 
+## 21.0.0
+
+### Major Changes
+
+- debounce: polymorphism: returns either a Promise or a non-Promise value
+
+  - debounce_fn_T,debounce_T
+
 ## 20.10.0
 
 ### Minor Changes
