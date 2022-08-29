@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 21.0.1
+
+### Patch Changes
+
+- tsx: ^3.8.2 -> ^3.9.0
+
 ## 21.0.0
 
 ### Major Changes
