@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 21.1.0
+
+### Minor Changes
+
+- \_: alias of run
+
 ## 21.0.1
 
 ### Patch Changes
