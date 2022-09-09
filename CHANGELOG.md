@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 21.1.1
+
+### Patch Changes
+
+- fn*pipe,\_p*: type: shorter argument variable names
+
 ## 21.1.0
 
 ### Minor Changes
