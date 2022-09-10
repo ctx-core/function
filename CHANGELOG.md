@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 21.2.0
+
+### Minor Changes
+
+- P aliases fn_pipe
+
 ## 21.1.1
 
 ### Patch Changes

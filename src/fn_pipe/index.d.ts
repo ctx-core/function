@@ -9,4 +9,7 @@ export function fn_pipe<A, B, C, D, E, F, G, H>(o:A, _0:($:A)=>B, _1:($:B)=>C, _
 export function fn_pipe<A, B, C, D, E, F, G, H, I>(o:A, _0:($:A)=>B, _1:($:B)=>C, _2:($:C)=>D, _3:($:D)=>E, _4:($:E)=>F, _5:($:F)=>G, _6:($:G)=>H, _7:($:H)=>I):I
 export function fn_pipe<A, B, C, D, E, F, G, H, I, J>(o:A, _0:($:A)=>B, _1:($:B)=>C, _2:($:C)=>D, _3:($:D)=>E, _4:($:E)=>F, _5:($:F)=>G, _6:($:G)=>H, _7:($:H)=>I, _8:($:I)=>J):J
 export function fn_pipe<A, B, C, D, E, F, G, H, I, J, K>(o:A, _0:($:A)=>B, _1:($:B)=>C, _2:($:C)=>D, _3:($:D)=>E, _4:($:E)=>F, _5:($:F)=>G, _6:($:G)=>H, _7:($:H)=>I, _8:($:I)=>J, ...args:(($:any)=>any)[]):K
-export { fn_pipe as _p_ }
+export {
+	fn_pipe as _p_,
+	fn_pipe as P,
+}
