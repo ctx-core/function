@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 21.3.0
+
+### Minor Changes
+
+- - run_pipe
+
 ## 21.2.0
 
 ### Minor Changes
