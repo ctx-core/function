@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 21.4.0
+
+### Minor Changes
+
+- - a\_: returns empty array
+
 ## 21.3.0
 
 ### Minor Changes
