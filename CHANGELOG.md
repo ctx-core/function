@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 21.5.0
+
+### Minor Changes
+
+- - nullish\__check_
+
 ## 21.4.0
 
 ### Minor Changes
