@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 21.6.0
+
+### Minor Changes
+
+- nullish\__check_: check argument is an array
+
 ## 21.5.0
 
 ### Minor Changes
