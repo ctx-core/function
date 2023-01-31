@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 21.6.1
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+
 ## 21.6.0
 
 ### Minor Changes
