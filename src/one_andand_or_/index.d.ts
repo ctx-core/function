@@ -3,7 +3,12 @@ import type { andand_or_T } from '../andand_or'
 /**
  * Returns function that calls `andand_or(obj, name_a, or_fn)`
  */
-export declare function one_andand_or_<In extends unknown = unknown, Out extends unknown = unknown>(name_a:andand_key_T<In>[], or_fn:andand_or_T<In, Out>):(obj:In)=>Out;
+export declare function one_andand_or_<
+	In extends unknown = unknown, 
+	Out extends unknown = unknown
+>(
+	name_a:andand_key_T<In>[], or_fn:andand_or_T<In, Out>
+):(obj:In)=>Out
 export {
 	one_andand_or_ as andand_or_,
 	one_andand_or_ as _one_andand_or,

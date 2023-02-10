@@ -9,6 +9,11 @@ test('run_pipe|synchronous', ()=>{
 test('run_pipe|async', async ()=>{
 	const o = { one: 1 }
 	equal({ one: 1, foo: 'bar', baz: 'quux' },
-		await run_pipe(()=>o, async ()=>({ ...o, foo: 'bar' }), $=>$.then($=>({ ...$, baz: 'quux' }))))
+		await run_pipe(
+			()=>o,
+			async ()=>({ ...o, foo: 'bar' }),
+				$=>
+					$.then($=>
+						({ ...$, baz: 'quux' }))))
 })
 test.run()

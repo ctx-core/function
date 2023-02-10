@@ -10,4 +10,8 @@ export function eql_a_(e0_a, e1_a) {
 	}
 	return true
 }
-export { eql_a_ as eql_a1_fn, eql_a_ as _eql_a1, eql_a_ as _eql__a1, }
+export {
+	eql_a_ as eql_a1_fn,
+	eql_a_ as _eql_a1,
+	eql_a_ as _eql__a1,
+}

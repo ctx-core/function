@@ -6,4 +6,8 @@ export function wrap_aa_(aa_nowrap) {
 	return wrap_a_(aa_nowrap).map((a_nowrap)=>wrap_a_(a_nowrap)
 	)
 }
-export { wrap_aa_ as wrap_a2_, wrap_aa_ as _wrap_a2, wrap_aa_ as _a2__wrap, }
+export {
+	wrap_aa_ as wrap_a2_,
+	wrap_aa_ as _wrap_a2,
+	wrap_aa_ as _a2__wrap,
+}

@@ -7,4 +7,7 @@ import { wrap_concat } from '../wrap_concat/index.js'
 export function right_and_(a_unwrap) {
 	return (val)=>and(wrap_concat(val, ...wrap_a_(a_unwrap)))
 }
-export { right_and_ as _and, right_and_ as _and__right }
+export {
+	right_and_ as _and,
+	right_and_ as _and__right,
+}

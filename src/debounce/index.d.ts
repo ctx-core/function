@@ -6,8 +6,10 @@
  * @see {link:https://davidwalsh.name/javascript-debounce-function}
  */
 export declare function debounce<Out extends unknown = unknown, Args extends any[] = []>(
-	func:(...args:Args)=>Out, wait:number, immediate?:boolean):(this:unknown, ...args:Args)=>Out;
+	func:(...args:Args)=>Out, wait:number, immediate?:boolean):(this:unknown, ...args:Args)=>Out
 export declare function debounce<Out extends unknown = unknown, Args extends any[] = []>(
-	func:(...args:Args)=>Promise<Out>, wait:number, immediate?:boolean):(this:unknown, ...args:Args)=>Promise<Out>;
+	func:(...args:Args)=>Promise<Out>, wait:number, immediate?:boolean):(this:unknown, ...args:Args
+)=>Promise<Out>
 export declare function debounce<Out extends unknown = unknown, Args extends any[] = []>(
-	func:(...args:Args)=>Out|Promise<Out>, wait:number, immediate?:boolean):(this:unknown, ...args:Args)=>Out|Promise<Out>;
+	func:(...args:Args)=>Out|Promise<Out>, wait:number, immediate?:boolean
+):(this:unknown, ...args:Args)=>Out|Promise<Out>

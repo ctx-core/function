@@ -6,4 +6,9 @@ import { map_call } from '../map_call/index.js'
 export function map_call_(fn_a, ...fac_arg_a) {
 	return (...fn_arg_a)=>map_call(fn_a, ...concat(fac_arg_a, fn_arg_a))
 }
-export { map_call_ as map_a_call_fn, map_call_ as map_a1_call_fn, map_call_ as _map_call, map_call_ as _call__map, }
+export {
+	map_call_ as map_a_call_fn,
+	map_call_ as map_a1_call_fn,
+	map_call_ as _map_call,
+	map_call_ as _call__map,
+}

@@ -8,4 +8,8 @@ export function bind_map_call_(fn_a, self, ...fac_arg_a) {
 		])
 	)
 }
-export { bind_map_call_ as _bind_map_call, bind_map_call_ as bind_map_fn_call_fn, bind_map_call_ as _call__map__bind }
+export {
+	bind_map_call_ as _bind_map_call,
+	bind_map_call_ as bind_map_fn_call_fn,
+	bind_map_call_ as _call__map__bind,
+}

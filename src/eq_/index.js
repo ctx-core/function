@@ -6,4 +6,7 @@ import { wrap_concat } from '../wrap_concat/index.js'
 export function eq_(a_nowrap) {
 	return (value)=>eq(wrap_concat(a_nowrap, value))
 }
-export { eq_ as _eq, eq_ as _fn__eq, }
+export {
+	eq_ as _eq,
+	eq_ as _fn__eq,
+}

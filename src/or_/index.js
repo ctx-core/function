@@ -19,4 +19,8 @@ export function or_(a_unwrap) {
 export function or_fn_(a_unwrap) {
 	return (val)=>or_(wrap_concat(a_unwrap, val))
 }
-export { or_ as on__fn, or_fn_ as _or__fn, or_fn_ as _fn__or__fn }
+export {
+	or_ as on__fn,
+	or_fn_ as _or__fn,
+	or_fn_ as _fn__or__fn,
+}

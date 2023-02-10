@@ -5,4 +5,7 @@ import { andandfn } from '../andandfn/index.js'
 export function andandfn_(...name_a) {
 	return (obj)=>andandfn(obj, ...name_a)
 }
-export { andandfn_ as _andand_, andandfn_ as _fn__andand__fn, }
+export {
+	andandfn_ as _andand_,
+	andandfn_ as _fn__andand__fn,
+}

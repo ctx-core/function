@@ -7,4 +7,7 @@ export function bind_call_(fn, self, ...in_arg_a) {
 		...fn_arg_a
 	])
 }
-export { bind_call_ as _bind_call, bind_call_ as _call__bind }
+export {
+	bind_call_ as _bind_call,
+	bind_call_ as _call__bind,
+}

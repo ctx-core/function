@@ -6,4 +6,7 @@ import { wrap_concat } from '../wrap_concat/index.js'
 export function left_or_(a_unwrap) {
 	return (val)=>or(wrap_concat(a_unwrap, val))
 }
-export { left_or_ as _left_or, left_or_ as _or__left, }
+export {
+	left_or_ as _left_or,
+	left_or_ as _or__left,
+}

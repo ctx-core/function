@@ -7,4 +7,7 @@ export function bind_apply_(fn, self, in_arg_a) {
 		...fn_arg_a
 	])
 }
-export { bind_apply_ as _bind_apply, bind_apply_ as _apply__bind, }
+export {
+	bind_apply_ as _bind_apply,
+	bind_apply_ as _apply__bind,
+}
