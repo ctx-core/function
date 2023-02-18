@@ -5,7 +5,7 @@ import type { a_nowrap_T, wrap_aa_T } from '../_types'
 export declare function wrap_aa_<
 	I extends unknown = unknown
 >(
-	aa_nowrap:a_nowrap_T<I>
+	a_nowrap:a_nowrap_T<I>
 ):wrap_aa_T<I>
 export { 
 	wrap_aa_ as wrap_a2_,

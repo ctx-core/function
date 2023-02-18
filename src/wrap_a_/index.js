@@ -1,6 +1,9 @@
 const { isArray } = Array
 /**
  * Returns `value` if array & `[value]` otherwise
+ * @param value{import('../_types').a_nowrap_T}
+ * @returns {import('../_types').wrap_a_T}
+ * @private
  */
 export function wrap_a_(value) {
 	return isArray(value) ? value : [

@@ -1,10 +1,10 @@
-import type { tap_interceptor_T } from '../tap'
+import type { tap__interceptor_T } from '../tap'
 /**
  * Returns function that calls tap with obj.
  */
 export declare function tap_<
-	Obj = unknown
+	Val = unknown
 >(
-	fn:tap_interceptor_T<Obj>
-):(obj:Obj)=>Obj
+	fn:tap__interceptor_T<Val>
+):(val:Val)=>Val
 export { tap_ as _tap, }

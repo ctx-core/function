@@ -1,8 +1,10 @@
 /**
  * Returns a function than returns the called fn_a(value) chained with ands
+ * @param fn_a{unknown[]}
+ * @returns {(fn_value_a:unknown[])=>unknown}
  */
 export function and_call_(fn_a) {
-	return (in_value)=>{
+	return in_value=>{
 		let out_value = null
 		for (const fn of fn_a) {
 			out_value = fn(in_value)

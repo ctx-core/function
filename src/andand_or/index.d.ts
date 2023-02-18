@@ -5,7 +5,7 @@ import type { andand_key_T } from '../andand'
 export declare function andand_or<
 	Val extends unknown = unknown,
 	Out extends unknown = unknown
->(obj:Val, name_a:andand_key_T<Val>[], or_fn:andand_or_T<Val, Out>):Out
+>(obj:Val, name_a:andand_key_T<Val>[], or_:andand_or_T<Val, Out>):Out
 export declare type andand_or_T<
 	Val extends unknown = unknown,
 	Out extends unknown = unknown

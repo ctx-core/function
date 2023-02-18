@@ -1,4 +1,8 @@
 /**
+ * @param fn{Function}
+ * @param [threshold]{number}
+ * @param [scope]{number}
+ * @returns {(this:unknown)=>void}
  * @see {link:https://remysharp.com/2010/07/21/throttling-function-calls}
  */
 export function throttle(fn, threshold = 250, scope) {

@@ -1,9 +1,11 @@
 import { wrap_a_ } from '../wrap_a_/index.js'
 /**
  * Returns `wrap_aa_T` wrapped as a 2-dimensional array
+ * @param a_nowrap{import('../_types').a_nowrap_T}
+ * @returns {import('../_types').wrap_aa_T}
  */
-export function wrap_aa_(aa_nowrap) {
-	return wrap_a_(aa_nowrap).map(a_nowrap=>wrap_a_(a_nowrap))
+export function wrap_aa_(a_nowrap) {
+	return wrap_a_(a_nowrap).map(a_nowrap=>wrap_a_(a_nowrap))
 }
 export {
 	wrap_aa_ as wrap_a2_,

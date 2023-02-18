@@ -1,6 +1,8 @@
 import { wrap_a_ } from '../wrap_a_/index.js'
 /**
  * Returns the first falsy or last item function call or value in `in_value_a` .
+ * @param a_nowrap{unknown}
+ * @returns {unknown}
  */
 export function and_(a_nowrap) {
 	const value_a = wrap_a_(a_nowrap)

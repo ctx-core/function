@@ -1,5 +1,19 @@
 # @ctx-core/function
 
+## 21.7.0
+
+### Minor Changes
+
+- - andand_key\_\_T: aliased by andand_key_fn_T
+- - tap\_\_interceptor_T: aliased by tap_interceptor_T
+- - slice_arg_spread_a**arg\_\_T: aliased by slice_arg_spread_a**arg_fn_T
+- - slice*arg_spread_a*: aliased by slice_arg_spread_a
+- - slice_arg_spread_a**arg\_\_T: aliased by slice_arg_spread_a**ret_T
+
+### Patch Changes
+
+- - jsdoc
+
 ## 21.6.1
 
 ### Patch Changes

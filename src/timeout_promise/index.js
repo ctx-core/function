@@ -1,5 +1,8 @@
 import { promise_timeout } from '../promise_timeout/index.js'
 /**
+ * @param ms{number}
+ * @param promise{Promise<unknown>}
+ * @returns {Promise<unknown>}
  * @see [link: https://italonascimento.github.io/applying-a-timeout-to-your-promises/]
  * @see [link: http://disq.us/p/1k8w63m]
  */

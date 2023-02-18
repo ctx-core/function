@@ -7,4 +7,7 @@ export declare function and_2<
 	A_inner extends unknown[] = unknown[],
 	O extends unknown = unknown
 >(in_value_a:A_inner):(fn_value_a:A_outer)=>O|falsy
-export { and_2 as _and_fn, and_2 as _and__fn, }
+export {
+	and_2 as _and_fn,
+	and_2 as _and__fn,
+}

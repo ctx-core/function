@@ -1,5 +1,9 @@
+/** @typedef {import('../andand').andand_key_T}andand_key_T */
 /**
  * Applies `&&` to a chain of property name or function with return value from `obj`.
+ * @param obj{unknown}
+ * @param name_a{andand_key_T}
+ * @returns {unknown}
  */
 export function andandfn(obj, ...name_a) {
 	let out_value = obj

@@ -7,6 +7,7 @@
 export declare function tap<
 	Obj extends unknown = unknown
 >(
-	obj:Obj, interceptor:tap_interceptor_T<Obj>
+	obj:Obj, interceptor:tap__interceptor_T<Obj>
 ):Obj
-export declare type tap_interceptor_T<T = unknown> = (obj:T)=>void
+export declare type tap__interceptor_T<T = unknown> = (obj:T)=>void
+export declare type tap_interceptor_T<T = unknown> = tap__interceptor_T<T>

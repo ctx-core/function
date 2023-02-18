@@ -8,7 +8,7 @@ export declare function and_call_<
 export declare type and_fn_call_T<
 	I extends unknown = unknown,
 	O extends unknown = unknown
-> = (in_value:I)=>O|null;
+> = (in_value:I)=>O|null
 export {
 	and_call_ as and_fn_call_fn,
 	and_call_ as _and_fn_call,
