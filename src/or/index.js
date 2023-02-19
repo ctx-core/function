@@ -1,6 +1,8 @@
 import { wrap_a_ } from '../wrap_a_/index.js'
 /**
  * Returns first truthy or last item in `a_unwrap`.
+ * @param {unknown|import('../_types').wrap_a_T}a_unwrap
+ * @returns {unknown}
  */
 export function or(a_unwrap) {
 	const value_a = wrap_a_(a_unwrap)

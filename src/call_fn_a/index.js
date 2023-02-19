@@ -1,5 +1,8 @@
 /**
  * Calls functions in fn_a with ...arg_a
+ * @param fn_a{(...arg_a:unknown[])=>unknown}
+ * @param arg_a{unknown}
+ * @returns {unknown[]}
  */
 export function call_fn_a(fn_a, ...arg_a) {
 	const returns = []

@@ -1,3 +1,7 @@
-export function isPromise(obj) {
-	return obj ? typeof obj.then === 'function' : false
+/**
+ * @param {unknown}val
+ * @returns {boolean}
+ */
+export function isPromise(val) {
+	return val ? typeof val.then === 'function' : false
 }

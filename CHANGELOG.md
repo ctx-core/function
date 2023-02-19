@@ -1,5 +1,19 @@
 # @ctx-core/function
 
+## 21.8.0
+
+### Minor Changes
+
+- - performance\__now_: aliased by performance_now
+- - nullish**guard**async: aliased by nullish_async_guard
+- - nullish\_\_guard: aliased by nullish_guard
+
+### Patch Changes
+
+- bind*apply*: fix: return type
+- bind*call*: fix: return type
+- - jsdocs
+
 ## 21.7.2
 
 ### Patch Changes

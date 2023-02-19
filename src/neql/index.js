@@ -1,6 +1,8 @@
 import { wrap_a_ } from '../wrap_a_/index.js'
 /**
  * Returns `!==` operator to all values in `a_unwrap`.
+ * @param {unknown}a_unwrap
+ * @returns {boolean}
  */
 export function neql(a_unwrap) {
 	const value_a = wrap_a_(a_unwrap)

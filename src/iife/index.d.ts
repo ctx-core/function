@@ -1,5 +1,5 @@
 /**
- * Returns a Immediately-invoked function expression
+ * Returns an Immediately-invoked function expression
  */
 export declare function iife<
 	T extends unknown = unknown

@@ -1,5 +1,8 @@
 /**
  * Returns first obj property that is truthy
+ * @param {unknown}obj
+ * @param {string[]}name_a
+ * @returns {unknown}
  */
 export function or_property(obj, name_a) {
 	for (let i = 0; i < name_a.length; i++) {

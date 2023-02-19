@@ -1,5 +1,7 @@
 /**
  * Returns a function than returns first truthy value from fn_a
+ * @param {(value:unknown)=>unknown}fn_a
+ * @returns {(value:unknown)=>unknown}
  */
 export function call_or_fn_(fn_a) {
 	return (value)=>{

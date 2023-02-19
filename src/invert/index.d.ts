@@ -1,4 +1,4 @@
 /**
- * Returns `!value`
+ * Returns `!val`
  */
-export declare function invert(value:unknown):boolean
+export declare function invert(val:unknown):boolean

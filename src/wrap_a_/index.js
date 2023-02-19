@@ -1,7 +1,7 @@
 const { isArray } = Array
 /**
  * Returns `value` if array & `[value]` otherwise
- * @param value{import('../_types').a_nowrap_T}
+ * @param {import('../_types').a_nowrap_T}value
  * @returns {import('../_types').wrap_a_T}
  * @private
  */

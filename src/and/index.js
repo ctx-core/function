@@ -1,7 +1,7 @@
 import { wrap_a_ } from '../wrap_a_/index.js'
 /**
  * Returns the first falsy or last item in `a_nowrap`.
- * @param a_nowrap{import('../_types').a_nowrap_T}
+ * @param {import('../_types').a_nowrap_T}a_nowrap
  * @returns {unknown}
  */
 export function and(a_nowrap) {

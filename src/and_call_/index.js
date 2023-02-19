@@ -1,6 +1,6 @@
 /**
  * Returns a function than returns the called fn_a(value) chained with ands
- * @param fn_a{unknown[]}
+ * @param {unknown[]}fn_a
  * @returns {(fn_value_a:unknown[])=>unknown}
  */
 export function and_call_(fn_a) {

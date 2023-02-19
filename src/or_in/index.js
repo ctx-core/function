@@ -1,5 +1,8 @@
 /**
  * Returns first obj property that is in the obj
+ * @param {object}obj
+ * @param {string[]}name_a
+ * @returns {string|undefined}
  */
 export function or_in(obj, name_a) {
 	for (let i = 0; i < name_a.length; i++) {

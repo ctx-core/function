@@ -1,6 +1,8 @@
 /**
- * Returns `!value`
+ * Returns `!val`
+ * @param {unknown}val
+ * @returns {boolean}
  */
-export function invert(value) {
-	return !value
+export function invert(val) {
+	return !val
 }

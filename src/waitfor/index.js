@@ -1,9 +1,9 @@
 import { promise_timeout } from '../promise_timeout/index.js'
 import { sleep } from '../sleep/index.js'
 /**
- * @param fn{()=>Promise<boolean>}
- * @param timeout{unknown}
- * @param [period]{unknown}
+ * @param {()=>Promise<boolean>}fn
+ * @param {unknown}timeout
+ * @param {unknown}[period]
  * @returns {Promise<void>}
  */
 export async function waitfor(fn, timeout, period = 0) {

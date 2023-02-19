@@ -1,7 +1,7 @@
 /**
  * Applies `&&` to a chain of properties from `obj`.
- * @param obj{unknown}
- * @param name_a{import('./index.d.ts').andand_key_T}
+ * @param {unknown}obj
+ * @param {import('./index.d.ts').andand_key_T}name_a
  * @returns {unknown}
  */
 export function andand(obj, ...name_a) {

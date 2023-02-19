@@ -1,4 +1,9 @@
 import { andand_or } from '../andand_or/index.js'
+/**
+ * @param {import('../andand').andand_key_T}name_a
+ * @param {import('../andand_or').andand_or_T}or_
+ * @returns {import('./index.d.ts').many_andand_or_T}
+ */
 export function many_andand_or_(name_a, or_) {
 	return (obj, ...arg_a)=>andand_or(obj, arg_a.concat(name_a), or_)
 }

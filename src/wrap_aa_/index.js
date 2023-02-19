@@ -1,7 +1,7 @@
 import { wrap_a_ } from '../wrap_a_/index.js'
 /**
  * Returns `wrap_aa_T` wrapped as a 2-dimensional array
- * @param a_nowrap{import('../_types').a_nowrap_T}
+ * @param {import('../_types').a_nowrap_T}a_nowrap
  * @returns {import('../_types').wrap_aa_T}
  */
 export function wrap_aa_(a_nowrap) {

@@ -4,7 +4,12 @@ import type { nullish } from '../_types'
  */
 export declare function every_arg_<
 	F extends (...args:any[])=>any,
-	E extends ($:Parameters<F>, index?:number, $a?:any[])=>any, O extends ()=>ReturnType<F>|nullish
+	E extends (
+		$:Parameters<F>,
+		index?:number,
+		$a?:any[]
+	)=>any,
+	O extends ()=>ReturnType<F>|nullish
 >(
 	fn:F, every_fn?:E, or_?:O
 ):F

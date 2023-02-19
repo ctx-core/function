@@ -7,7 +7,7 @@ export declare function one_andand_or_<
 	In extends unknown = unknown, 
 	Out extends unknown = unknown
 >(
-	name_a:andand_key_T<In>[], or_fn:andand_or_T<In, Out>
+	name_a:andand_key_T<In>[], or_:andand_or_T<In, Out>
 ):(obj:In)=>Out
 export {
 	one_andand_or_ as andand_or_,

@@ -1,7 +1,7 @@
 /**
  * Calls setTimeout
- * @param fn{()=>unknown}
- * @param [timeout]{number}
+ * @param {()=>unknown}fn
+ * @param {number}[timeout]
  * @returns {Promise<unknown>}
  */
 export function tick(fn, timeout = 0) {

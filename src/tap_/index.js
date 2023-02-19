@@ -1,6 +1,6 @@
 /**
  * Returns function that calls tap with obj.
- * @param fn{import('../tap').tap__interceptor_T}
+ * @param {import('../tap').tap__interceptor_T}fn
  * @returns {(val:unknown)=>unknown}
  */
 export function tap_(fn) {

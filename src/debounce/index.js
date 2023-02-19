@@ -4,6 +4,10 @@ import { isPromise } from '../isPromise/index.js'
  * be triggered. The function will be called after it stops being called for
  * N milliseconds. If `immediate` is passed, trigger the function on the
  * leading edge, instead of the trailing.
+ * @param {(...args:unknown[])=>unknown}func
+ * @param {number}wait
+ * @param {boolean}[immediate]
+ * @returns {(this:unknown, ...args:unknown[])=>(unknown|Promise<unknown>)}
  * @see {link:https://davidwalsh.name/javascript-debounce-function}
  */
 export function debounce(func, wait, immediate) {

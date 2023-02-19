@@ -1,3 +1,9 @@
+/**
+ * @param {(()=>Promise<unknown>)|Promise<unknown>}promise
+ * @param {number}ms
+ * @param {Error}[error]
+ * @returns {Promise<unknown>}
+ */
 export async function promise_timeout(
 	promise,
 	ms,

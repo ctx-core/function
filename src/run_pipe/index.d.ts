@@ -57,5 +57,5 @@ export function run_pipe<A, B, C, D, E, F, G, H, I, J, K>(
 	_6:($:G)=>H,
 	_7:($:H)=>I,
 	_8:($:I)=>J,
-	...args:(($:any)=>any)[]
+	...arg_a:(($:any)=>any)[]
 ):K

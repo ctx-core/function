@@ -1,5 +1,5 @@
 /**
- * @param val{unknown}
+ * @param {unknown}val
  * @returns {(val:unknown)=>()=>unknown}
  */
 export function val_(val) {

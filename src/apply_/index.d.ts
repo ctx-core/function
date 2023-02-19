@@ -7,5 +7,7 @@ export declare function apply_<
 	O1 extends unknown = unknown, 
 	A2 extends unknown[] = unknown[],
 	O2 extends unknown = unknown
->(fn:call_fn_T<A2, O2>, in_arg_a?:unknown[]):bind_call_T<A1, O1>
+>(
+	fn:call_fn_T<A2, O2>, in_arg_a?:unknown[]
+):bind_call_T<A1, O1>
 export { apply_ as _apply, }

@@ -1,3 +1,8 @@
+/**
+ * @param {string}label
+ * @param {()=>unknown}fns
+ * @returns {unknown}
+ */
 export function falsy_guard(label, ...fns) {
 	for (const fn of fns) {
 		const rv = fn()

@@ -2,7 +2,7 @@ import { and_ } from '../and_/index.js'
 import { wrap_concat } from '../wrap_concat/index.js'
 /**
  * Returns function that returns the first falsy or last item function call or value in `in_value_a` .
- * @param in_value_a{unknown[]}
+ * @param {unknown[]}in_value_a
  * @returns {(fn_value_a:unknown[])=>unknown}
  */
 export function and_2(in_value_a) {

@@ -1,5 +1,9 @@
 /**
  * Returns a function that calls fn passing the arguments sliced by slice_arg_a.
+ * @param {import('./index.d.ts').slice_arg_spread_a__arg__T}fn
+ * @param {number}[begin_idx]
+ * @param {number}[end_idx]
+ * @returns {import('./index.d.ts').slice_arg_spread_a___ret_T}
  */
 export function slice_arg_spread_a_(fn, begin_idx, end_idx) {
 	return (...arg_a)=>fn(arg_a.slice(begin_idx, end_idx))

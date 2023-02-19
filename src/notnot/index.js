@@ -1,6 +1,8 @@
 import { wrap_a_ } from '../wrap_a_/index.js'
 /**
- * Returns the boolean of the truthiness all values in `in_value_a`
+ * Returns the truthiness of all values in `in_value_a`
+ * @param {unknown|unknown[]}in_value_a
+ * @returns {boolean}
  */
 export function notnot(in_value_a) {
 	const value_a = wrap_a_(in_value_a)

@@ -7,7 +7,9 @@ export declare function bind_map_apply_<
 	O1 extends unknown = unknown, 
 	S1 extends unknown = unknown, 
 	A2 extends unknown[] = unknown[]
->(fn_a:call_fn_T<A1, O1>[], self:S1, in_arg_a:A2):(...fn_arg_a:A1)=>O1[]
+>(
+	fn_a:call_fn_T<A1, O1>[], self:S1, in_arg_a:A2
+):(...fn_arg_a:A1)=>O1[]
 export {
 	bind_map_apply_ as _bind_map_apply,
 	bind_map_apply_ as bind_map_fn_apply_fn,

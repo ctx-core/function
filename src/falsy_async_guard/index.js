@@ -1,3 +1,8 @@
+/**
+ * @param {string}label
+ * @param {(()=>Promise<unknown>)}fns
+ * @returns {Promise<unknown>}
+ */
 export async function falsy_async_guard(label, ...fns) {
 	for (const fn of fns) {
 		const rv = await fn()

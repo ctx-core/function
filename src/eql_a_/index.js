@@ -1,5 +1,8 @@
 /**
  * Is e0_a `===` e1_a? Checks first level equality.
+ * @param {unknown[]}e0_a
+ * @param {unknown[]}e1_a
+ * @returns {boolean}
  */
 export function eql_a_(e0_a, e1_a) {
 	if (e0_a === e1_a) return true

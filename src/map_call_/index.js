@@ -2,6 +2,9 @@ import { concat } from '../concat/index.js'
 import { map_call } from '../map_call/index.js'
 /**
  * Returns function that maps calls to fn_al ...fac_arg_a concat with ...fn_arg_a passed to function
+ * @param {import('../_types').map_fn_T[]}fn_a
+ * @param {unknown}fac_arg_a
+ * @returns {(...fn_arg_a:unknown[])=>unknown[]}
  */
 export function map_call_(fn_a, ...fac_arg_a) {
 	return (...fn_arg_a)=>map_call(fn_a, ...concat(fac_arg_a, fn_arg_a))

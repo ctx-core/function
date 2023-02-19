@@ -1,7 +1,7 @@
 /**
  * Returns array with the index as each item.
- * @param num{number}
- * @param fn{(idx:number)=>unknown}
+ * @param {number}num
+ * @param {(idx:number)=>unknown}fn
  * @returns {unknown[]}
  */
 export function times(num, fn) {

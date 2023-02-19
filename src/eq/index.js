@@ -1,6 +1,8 @@
 import { wrap_a_ } from '../wrap_a_/index.js'
 /**
  * Returns `==` operator to all values in `a_nowrap`.
+ * @param {import('../_types').a_nowrap_T}a_nowrap
+ * @returns {boolean}
  */
 export function eq(a_nowrap) {
 	const value_a = wrap_a_(a_nowrap)

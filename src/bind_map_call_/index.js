@@ -1,5 +1,10 @@
+/** @typedef {import('../_types').call_fn_T}call_fn_T */
 /**
  * Returns function bound to self that returns map of fn_al calls with ...fac_arg_a concat with ...fn_arg_a passed to function
+ * @param {call_fn_T[]}fn_a
+ * @param {unknown}self
+ * @param {unknown}fac_arg_a
+ * @returns {(...fn_arg_a:unknown[])=>unknown}
  */
 export function bind_map_call_(fn_a, self, ...fac_arg_a) {
 	return (...fn_arg_a)=>fn_a.map((fn)=>fn.call(self, ...[
