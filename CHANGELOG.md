@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 21.7.2
+
+### Patch Changes
+
+- fix: `throw new Error(error_message)` instead of `throw error_message`
+
 ## 21.7.1
 
 ### Patch Changes
