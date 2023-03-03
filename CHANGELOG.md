@@ -1,5 +1,12 @@
 # @ctx-core/function
 
+## 21.9.0
+
+### Minor Changes
+
+- - flatten: promoted from @ctx-core/array
+- - isArray: promoted from @ctx-core/object
+
 ## 21.8.0
 
 ### Minor Changes
