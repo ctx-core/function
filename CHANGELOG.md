@@ -1,5 +1,12 @@
 # @ctx-core/function
 
+## 21.10.0
+
+### Minor Changes
+
+- - tuple_a_o_T
+- zip\_\_tuple_a_T
+
 ## 21.9.0
 
 ### Minor Changes
