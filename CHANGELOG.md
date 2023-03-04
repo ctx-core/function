@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 21.10.1
+
+### Patch Changes
+
+- tuple_a_o_T: + jsdoc
+
 ## 21.10.0
 
 ### Minor Changes
