@@ -1,5 +1,12 @@
 # @ctx-core/function
 
+## 21.11.0
+
+### Minor Changes
+
+- - NumericRange
+- - LessThan
+
 ## 21.10.1
 
 ### Patch Changes
