@@ -6,5 +6,5 @@ export type tuple_a_o_T<
 	K extends readonly PropertyKey[],
 	V extends readonly any[]
 > = {
-	[T in zip__tuple_a_T<K, V>[number]as T[0]]: T[1]
+	[T in zip__tuple_a_T<K, V>[number] as T[0]]:T[1]
 }
