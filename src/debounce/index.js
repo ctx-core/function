@@ -8,7 +8,7 @@ import { isPromise } from '../isPromise/index.js'
  * @param {number}wait
  * @param {boolean}[immediate]
  * @returns {(this:unknown, ...args:unknown[])=>(unknown|Promise<unknown>)}
- * @see {link:https://davidwalsh.name/javascript-debounce-function}
+ * @see {@link https://davidwalsh.name/javascript-debounce-function}
  */
 export function debounce(func, wait, immediate) {
 	let timeout, promise, resolve, reject

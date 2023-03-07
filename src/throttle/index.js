@@ -3,7 +3,7 @@
  * @param {number}[threshold]
  * @param {number}[scope]
  * @returns {(this:unknown)=>void}
- * @see {link:https://remysharp.com/2010/07/21/throttling-function-calls}
+ * @see {@link https://remysharp.com/2010/07/21/throttling-function-calls}
  */
 export function throttle(fn, threshold = 250, scope) {
 	threshold || (threshold = 250)

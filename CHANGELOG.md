@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 21.12.1
+
+### Patch Changes
+
+- jsdoc: fix: @see {@link ...}
+
 ## 21.12.0
 
 ### Minor Changes
