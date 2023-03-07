@@ -1,5 +1,12 @@
 # @ctx-core/function
 
+## 21.12.0
+
+### Minor Changes
+
+- - tuple\_\_o_T
+- - tuple\_\_union_T
+
 ## 21.11.0
 
 ### Minor Changes
