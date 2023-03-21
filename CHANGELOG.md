@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 21.12.2
+
+### Patch Changes
+
+- flatten: fix: circular dependency
+
 ## 21.12.1
 
 ### Patch Changes

@@ -1,5 +1,5 @@
-import { wrap_concat } from '@ctx-core/function'
 import { isArray } from '../isArray/index.js'
+import { wrap_concat } from '../wrap_concat/index.js'
 /** @typedef {import('@ctx-core/function').wrap_a_T2}wrap_a_T2 */
 /**
  * Flattens the a & it's children into an array without chunks
