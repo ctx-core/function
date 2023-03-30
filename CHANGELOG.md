@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 21.13.0
+
+### Minor Changes
+
+- run: handle falsy functions: + nullish*check*([fn], ...)
+
 ## 21.12.2
 
 ### Patch Changes
