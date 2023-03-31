@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 21.14.0
+
+### Minor Changes
+
+- nullish\__check_: arguments: + onnullish: (nullish:nullish)=>any
+
 ## 21.13.1
 
 ### Patch Changes
