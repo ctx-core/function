@@ -1,5 +1,12 @@
 # @ctx-core/function
 
+## 21.15.0
+
+### Minor Changes
+
+- tick: !timeout: use queueMicrotask instead of setTimeout: setTimeout is still used when there is a timeout
+- tick: arguments: fn is optional
+
 ## 21.14.0
 
 ### Minor Changes
