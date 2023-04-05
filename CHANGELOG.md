@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 21.16.0
+
+### Minor Changes
+
+- run: arg_a: + type inference: generics: A extends any[] = any[]
+
 ## 21.15.0
 
 ### Minor Changes
