@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 21.17.0
+
+### Minor Changes
+
+- - falsy\__check_
+
 ## 21.16.0
 
 ### Minor Changes

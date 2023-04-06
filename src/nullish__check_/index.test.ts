@@ -1,6 +1,6 @@
 import { test } from 'uvu'
 import { equal } from 'uvu/assert'
-import { nullish__check_ } from './index'
+import { nullish__check_ } from '../index'
 test('nullish__check_|-onnullish', ()=>{
 	const arg_aa:any[][] = []
 	const _ = (...arg_a:any[])=>{
