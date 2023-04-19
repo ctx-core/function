@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 21.17.19
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+
 ## 21.17.18
 
 ### Patch Changes
