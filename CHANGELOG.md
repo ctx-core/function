@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 21.18.0
+
+### Minor Changes
+
+- waitFor: fn argument: + synchronous return type
+
 ## 21.17.19
 
 ### Patch Changes
