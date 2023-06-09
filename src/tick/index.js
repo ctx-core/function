@@ -1,4 +1,4 @@
-	import { run } from '../run/index.js'
+import { run } from '../run/index.js'
 /**
  * Calls setTimeout
  * @param {()=>unknown}[fn]
