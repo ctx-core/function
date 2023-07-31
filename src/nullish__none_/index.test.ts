@@ -1,7 +1,7 @@
 import { test } from 'uvu'
 import { equal } from 'uvu/assert'
-import { nullish__check_ } from '../index'
-test('nullish__check_|-onnullish', ()=>{
+import { nullish__none_ } from '../index'
+test('nullish__none_|-onnullish', ()=>{
 	const arg_aa:any[][] = []
 	const _ = (...arg_a:any[])=>{
 		arg_aa.push(arg_a)
@@ -12,18 +12,18 @@ test('nullish__check_|-onnullish', ()=>{
 	const zero = 0
 	const str = ''
 	const o = {}
-	equal(nullish__check_([undefined_val], _), undefined)
+	equal(nullish__none_([undefined_val], _), undefined)
 	equal(arg_aa, [])
-	equal(nullish__check_([null_val], _), null)
+	equal(nullish__none_([null_val], _), null)
 	equal(arg_aa, [])
-	equal(nullish__check_([zero], _), [zero])
+	equal(nullish__none_([zero], _), [zero])
 	equal(arg_aa, [[zero]])
-	equal(nullish__check_([str], _), [str])
+	equal(nullish__none_([str], _), [str])
 	equal(arg_aa, [[zero], [str]])
-	equal(nullish__check_([o], _), [o])
+	equal(nullish__none_([o], _), [o])
 	equal(arg_aa, [[zero], [str], [o]])
 })
-test('nullish__check_|+onnullish', ()=>{
+test('nullish__none_|+onnullish', ()=>{
 	const arg_aa:any[][] = []
 	const _ = (...arg_a:any[])=>{
 		arg_aa.push(arg_a)
@@ -39,19 +39,19 @@ test('nullish__check_|+onnullish', ()=>{
 	const zero = 0
 	const str = ''
 	const o = {}
-	equal(nullish__check_([undefined_val], _, onnullish), undefined)
+	equal(nullish__none_([undefined_val], _, onnullish), undefined)
 	equal(arg_aa, [])
 	equal(onnullish__arg_aa, [[undefined]])
-	equal(nullish__check_([null_val], _, onnullish), null)
+	equal(nullish__none_([null_val], _, onnullish), null)
 	equal(arg_aa, [])
 	equal(onnullish__arg_aa, [[undefined], [null]])
-	equal(nullish__check_([zero], _, onnullish), [zero])
+	equal(nullish__none_([zero], _, onnullish), [zero])
 	equal(arg_aa, [[zero]])
 	equal(onnullish__arg_aa, [[undefined], [null]])
-	equal(nullish__check_([str], _, onnullish), [str])
+	equal(nullish__none_([str], _, onnullish), [str])
 	equal(arg_aa, [[zero], [str]])
 	equal(onnullish__arg_aa, [[undefined], [null]])
-	equal(nullish__check_([o], _, onnullish), [o])
+	equal(nullish__none_([o], _, onnullish), [o])
 	equal(arg_aa, [[zero], [str], [o]])
 	equal(onnullish__arg_aa, [[undefined], [null]])
 })

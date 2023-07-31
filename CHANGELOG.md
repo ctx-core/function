@@ -1,5 +1,12 @@
 # @ctx-core/function
 
+## 21.19.0
+
+### Minor Changes
+
+- - nullish**none\_: aliased by nullish**check\_
+- - nullish\__not_all_
+
 ## 21.18.0
 
 ### Minor Changes

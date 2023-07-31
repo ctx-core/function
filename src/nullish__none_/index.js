@@ -5,7 +5,7 @@
  * @param {(nullish:nullish)=>any}[onnullish]
  * @returns {unknown}
  */
-export function nullish__check_(a, _, onnullish) {
+export function nullish__none_(a, _, onnullish) {
 	for (const v of a) {
 		if (v === undefined) {
 			if (onnullish) onnullish(undefined)
@@ -19,4 +19,7 @@ export function nullish__check_(a, _, onnullish) {
 		}
 	}
 	return _(...a)
+}
+export {
+	nullish__none_ as nullish__check_,
 }
