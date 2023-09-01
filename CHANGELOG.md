@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 21.20.0
+
+### Minor Changes
+
+- - falsy**none\_: aliased by falsy**check\_
+
 ## 21.19.0
 
 ### Minor Changes

@@ -5,7 +5,7 @@
  * @param {(falsy:falsy)=>any}[onfalsy]
  * @returns {unknown}
  */
-export function falsy__check_(a, _, onfalsy) {
+export function falsy__none_(a, _, onfalsy) {
 	for (const v of a) {
 		if (v === undefined) {
 			if (onfalsy) onfalsy(undefined)
@@ -20,3 +20,4 @@ export function falsy__check_(a, _, onfalsy) {
 	}
 	return _(...a)
 }
+export { falsy__none_ as falsy__check_ }

@@ -1,7 +1,7 @@
 import { test } from 'uvu'
 import { equal } from 'uvu/assert'
-import { falsy__check_ } from '../index'
-test('falsy__check_|-onfalsy', ()=>{
+import { falsy__none_ } from '../index'
+test('falsy__none_|-onfalsy', ()=>{
 	const arg_aa:any[][] = []
 	const _ = (...arg_a:any[])=>{
 		arg_aa.push(arg_a)
@@ -12,18 +12,18 @@ test('falsy__check_|-onfalsy', ()=>{
 	const zero = 0
 	const str = ''
 	const o = {}
-	equal(falsy__check_([undefined_val], _), undefined)
+	equal(falsy__none_([undefined_val], _), undefined)
 	equal(arg_aa, [])
-	equal(falsy__check_([null_val], _), null)
+	equal(falsy__none_([null_val], _), null)
 	equal(arg_aa, [])
-	equal(falsy__check_([zero], _), [zero])
+	equal(falsy__none_([zero], _), [zero])
 	equal(arg_aa, [[zero]])
-	equal(falsy__check_([str], _), [str])
+	equal(falsy__none_([str], _), [str])
 	equal(arg_aa, [[zero], [str]])
-	equal(falsy__check_([o], _), [o])
+	equal(falsy__none_([o], _), [o])
 	equal(arg_aa, [[zero], [str], [o]])
 })
-test('falsy__check_|+onfalsy', ()=>{
+test('falsy__none_|+onfalsy', ()=>{
 	const arg_aa:any[][] = []
 	const _ = (...arg_a:any[])=>{
 		arg_aa.push(arg_a)
@@ -39,19 +39,19 @@ test('falsy__check_|+onfalsy', ()=>{
 	const zero = 0
 	const str = ''
 	const o = {}
-	equal(falsy__check_([undefined_val], _, onfalsy), undefined)
+	equal(falsy__none_([undefined_val], _, onfalsy), undefined)
 	equal(arg_aa, [])
 	equal(onfalsy__arg_aa, [[undefined]])
-	equal(falsy__check_([null_val], _, onfalsy), null)
+	equal(falsy__none_([null_val], _, onfalsy), null)
 	equal(arg_aa, [])
 	equal(onfalsy__arg_aa, [[undefined], [null]])
-	equal(falsy__check_([zero], _, onfalsy), [zero])
+	equal(falsy__none_([zero], _, onfalsy), [zero])
 	equal(arg_aa, [[zero]])
 	equal(onfalsy__arg_aa, [[undefined], [null]])
-	equal(falsy__check_([str], _, onfalsy), [str])
+	equal(falsy__none_([str], _, onfalsy), [str])
 	equal(arg_aa, [[zero], [str]])
 	equal(onfalsy__arg_aa, [[undefined], [null]])
-	equal(falsy__check_([o], _, onfalsy), [o])
+	equal(falsy__none_([o], _, onfalsy), [o])
 	equal(arg_aa, [[zero], [str], [o]])
 	equal(onfalsy__arg_aa, [[undefined], [null]])
 })
