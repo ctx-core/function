@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 21.20.1
+
+### Patch Changes
+
+- version bump
+
 ## 21.20.0
 
 ### Minor Changes
