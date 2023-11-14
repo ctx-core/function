@@ -1,5 +1,13 @@
 # @ctx-core/function
 
+## 21.21.3
+
+### Patch Changes
+
+- package.json: files: + \*.js
+- Updated dependencies
+  - ctx-core@2.2.2
+
 ## 21.21.2
 
 ### Patch Changes
