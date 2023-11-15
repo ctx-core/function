@@ -1,5 +1,21 @@
 # @ctx-core/function
 
+## 21.22.0
+
+### Minor Changes
+
+- - isPrimitive
+- - isPromiseLike: aliased by isPromise
+- - memo\_
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - ctx-core@2.3.0
+
 ## 21.21.3
 
 ### Patch Changes
