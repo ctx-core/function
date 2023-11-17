@@ -1,5 +1,14 @@
 # @ctx-core/function
 
+## 21.22.2
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - ctx-core@3.0.0
+
 ## 21.22.1
 
 ### Patch Changes
