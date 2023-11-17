@@ -1,5 +1,20 @@
 # @ctx-core/function
 
+## 21.22.1
+
+### Patch Changes
+
+- noop: js: empty arguments
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - ctx-core@2.4.0
+
 ## 21.22.0
 
 ### Minor Changes
