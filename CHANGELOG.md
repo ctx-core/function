@@ -1,5 +1,13 @@
 # @ctx-core/function
 
+## 21.23.1
+
+### Patch Changes
+
+- TupleExclude: fix: type error
+- Updated dependencies
+  - ctx-core@4.11.1
+
 ## 21.23.0
 
 ### Minor Changes
