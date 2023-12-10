@@ -1,5 +1,23 @@
 # @ctx-core/function
 
+## 21.23.0
+
+### Minor Changes
+
+- - tup
+- minor:
+
+      + TupleRest
+      + TupleFirst
+      + TupleExclude
+
+### Patch Changes
+
+- nullish\__none_: callback: exclude nullish from each argument
+- Updated dependencies
+- Updated dependencies
+  - ctx-core@4.11.0
+
 ## 21.22.33
 
 ### Patch Changes
