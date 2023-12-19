@@ -1,5 +1,12 @@
 # @ctx-core/function
 
+## 21.24.7
+
+### Patch Changes
+
+- Updated dependencies
+  - ctx-core@5.0.0
+
 ## 21.24.6
 
 ### Patch Changes
