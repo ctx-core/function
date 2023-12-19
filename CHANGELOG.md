@@ -1,5 +1,12 @@
 # @ctx-core/function
 
+## 21.24.10
+
+### Patch Changes
+
+- tsx: ^4.6.2 -> ^4.7.0
+- ctx-core: ^5.0.2 -> ^5.1.0
+
 ## 21.24.9
 
 ### Patch Changes
