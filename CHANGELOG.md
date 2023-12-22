@@ -1,5 +1,16 @@
 # @ctx-core/function
 
+## 21.25.0
+
+### Minor Changes
+
+- waitfor: + .cancel()
+
+### Patch Changes
+
+- Updated dependencies
+  - ctx-core@5.4.0
+
 ## 21.24.16
 
 ### Patch Changes
