@@ -1,5 +1,17 @@
 # @ctx-core/function
 
+## 21.27.0
+
+### Minor Changes
+
+- promise_timeout: + .cancel(val:0)
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+  - ctx-core@5.8.0
+
 ## 21.26.2
 
 ### Patch Changes
