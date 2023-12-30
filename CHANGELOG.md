@@ -1,5 +1,18 @@
 # @ctx-core/function
 
+## 21.26.0
+
+### Minor Changes
+
+- run: polymorphic arguments: + (arg_a:A, fn:(...arg_a:A)=>O)=>O
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - ctx-core@5.6.0
+
 ## 21.25.2
 
 ### Patch Changes
