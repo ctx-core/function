@@ -1,5 +1,14 @@
 # @ctx-core/function
 
+## 21.26.2
+
+### Patch Changes
+
+- promise_timeout: error argument: fix: nullish value defaults to Error(`Timeout ${ms}ms`)
+- Updated dependencies
+- Updated dependencies
+  - ctx-core@5.7.0
+
 ## 21.26.1
 
 ### Patch Changes
