@@ -1,5 +1,23 @@
 # @ctx-core/function
 
+## 21.28.0
+
+### Minor Changes
+
+- - cancel\__period_
+- waitfor: period argument: number or async function sleep function
+- - Cancel: extends Error: used with .cancel() to interrupt async functions
+
+### Patch Changes
+
+- sleep: fix: returns Promise<number>
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - ctx-core@5.9.0
+
 ## 21.27.0
 
 ### Minor Changes
