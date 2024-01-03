@@ -1,5 +1,14 @@
 # @ctx-core/function
 
+## 21.28.3
+
+### Patch Changes
+
+- bind*apply*: fix: implementation
+- Updated dependencies
+- Updated dependencies
+  - ctx-core@5.12.0
+
 ## 21.28.2
 
 ### Patch Changes
