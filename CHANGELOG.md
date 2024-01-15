@@ -1,5 +1,13 @@
 # @ctx-core/function
 
+## 21.28.17
+
+### Patch Changes
+
+- neql\_: fix: import
+- Updated dependencies
+  - ctx-core@5.18.6
+
 ## 21.28.16
 
 ### Patch Changes
