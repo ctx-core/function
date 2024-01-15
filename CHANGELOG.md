@@ -1,5 +1,18 @@
 # @ctx-core/function
 
+## 21.28.16
+
+### Patch Changes
+
+- fix types:
+
+      neql_
+      eq_
+      neq_
+
+- Updated dependencies
+  - ctx-core@5.18.5
+
 ## 21.28.15
 
 ### Patch Changes
