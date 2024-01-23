@@ -1,5 +1,16 @@
 # @ctx-core/function
 
+## 21.29.0
+
+### Minor Changes
+
+- - run*or_val*
+
+### Patch Changes
+
+- Updated dependencies
+  - ctx-core@5.27.0
+
 ## 21.28.36
 
 ### Patch Changes
