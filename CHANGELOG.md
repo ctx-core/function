@@ -1,5 +1,19 @@
 # @ctx-core/function
 
+## 21.30.0
+
+### Minor Changes
+
+- Cancel: name: 'Cancel'
+- - promise\_\_cancel
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - ctx-core@5.33.0
+
 ## 21.29.9
 
 ### Patch Changes
