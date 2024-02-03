@@ -1,5 +1,17 @@
 # @ctx-core/function
 
+## 21.30.10
+
+### Patch Changes
+
+- debounce: fix: ∋ clearTimeout
+- timeout_promise: fix: clearTimeout when an error occurs: clearTimeout in finally instead of then
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - ctx-core@5.37.0
+
 ## 21.30.9
 
 ### Patch Changes
