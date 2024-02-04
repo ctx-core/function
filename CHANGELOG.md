@@ -1,5 +1,16 @@
 # @ctx-core/function
 
+## 21.31.0
+
+### Minor Changes
+
+- - calling: calls & returns argument function
+
+### Patch Changes
+
+- Updated dependencies
+  - ctx-core@5.38.0
+
 ## 21.30.10
 
 ### Patch Changes
