@@ -1,5 +1,13 @@
 # @ctx-core/function
 
+## 21.32.2
+
+### Patch Changes
+
+- timeout_promise: fix: Infinity argument should wait until condition is met without any time limit
+- Updated dependencies
+  - ctx-core@6.2.2
+
 ## 21.32.1
 
 ### Patch Changes
