@@ -1,5 +1,11 @@
 # @ctx-core/function
 
+## 21.32.6
+
+### Patch Changes
+
+- ctx-core: ^6.4.1 -> ^6.4.2
+
 ## 21.32.5
 
 ### Patch Changes
