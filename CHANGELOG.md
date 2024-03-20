@@ -1,5 +1,13 @@
 # @ctx-core/function
 
+## 21.32.23
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+
 ## 21.32.22
 
 ### Patch Changes
