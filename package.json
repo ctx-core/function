@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/function",
-	"version": "21.32.27",
+	"version": "21.32.28",
 	"description": "ctx-core function",
 	"keywords": [
 		"ctx-core",
@@ -37,7 +37,7 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^6.8.0"
+		"ctx-core": "^6.8.1"
 	},
 	"devDependencies": {
 		"c8": "^9.1.0",
