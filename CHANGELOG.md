@@ -1,5 +1,12 @@
 # @ctx-core/function
 
+## 21.32.32
+
+### Patch Changes
+
+- Updated dependencies
+  - ctx-core@7.0.0
+
 ## 21.32.31
 
 ### Patch Changes
