@@ -1,5 +1,13 @@
 # @ctx-core/function
 
+## 21.32.74
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - ctx-core@7.2.34
+
 ## 21.32.73
 
 ### Patch Changes
